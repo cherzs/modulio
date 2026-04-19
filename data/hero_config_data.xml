@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- noupdate=0 so the default row is created on -u for databases that already had the module installed -->
+    <data noupdate="0">
+        <record id="modulio_hero_config_default" model="modulio.hero.config">
+            <field name="name">Homepage Hero</field>
+        </record>
+    </data>
+</odoo>

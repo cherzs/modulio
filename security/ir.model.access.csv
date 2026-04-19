@@ -3,3 +3,7 @@ access_modulio_portfolio_public,modulio.portfolio.public,model_modulio_portfolio
 access_modulio_portfolio_admin,modulio.portfolio.admin,model_modulio_portfolio,website.group_website_designer,1,1,1,1
 access_modulio_portfolio_category_public,modulio.portfolio.category.public,model_modulio_portfolio_category,,1,0,0,0
 access_modulio_portfolio_category_admin,modulio.portfolio.category.admin,model_modulio_portfolio_category,website.group_website_designer,1,1,1,1
+access_modulio_service_public,modulio.service.public,model_modulio_service,,1,0,0,0
+access_modulio_service_admin,modulio.service.admin,model_modulio_service,website.group_website_designer,1,1,1,1
+access_modulio_hero_config_public,modulio.hero.config.public,model_modulio_hero_config,,1,0,0,0
+access_modulio_hero_config_admin,modulio.hero.config.admin,model_modulio_hero_config,website.group_website_designer,1,1,1,1

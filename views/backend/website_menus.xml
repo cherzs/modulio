@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Website > Configuration > Modulio Content -->
+    <menuitem id="menu_modulio_website_content"
+              name="Modulio"
+              parent="website.menu_website_configuration"
+              sequence="25"/>
+
+    <menuitem id="menu_modulio_hero_config"
+              name="Homepage Hero"
+              parent="menu_modulio_website_content"
+              action="action_modulio_hero_config"
+              sequence="5"/>
+
+    <menuitem id="menu_modulio_portfolio_projects"
+              name="Portfolio Projects"
+              parent="menu_modulio_website_content"
+              action="action_modulio_portfolio"
+              sequence="10"/>
+
+    <menuitem id="menu_modulio_portfolio_categories"
+              name="Portfolio Categories"
+              parent="menu_modulio_website_content"
+              action="action_modulio_portfolio_category"
+              sequence="20"/>
+
+    <menuitem id="menu_modulio_services_backend"
+              name="Services"
+              parent="menu_modulio_website_content"
+              action="action_modulio_service"
+              sequence="30"/>
+</odoo>

@@ -18,12 +18,30 @@ class ModulioPages(http.Controller):
 
     @http.route('/services', type='http', auth='public', website=True)
     def services_list(self, **kwargs):
-        """Display services listing page."""
-        return request.render('modulio_website.services_list_page', {})
+        """Display services listing page (dynamic records + fallback)."""
+        services = request.env['modulio.service'].sudo().search(
+            [('website_published', '=', True)],
+            order='sequence, id',
+        )
+        return request.render('modulio_website.services_list_page', {
+            'services': services,
+        })
 
     @http.route('/services/<string:service>', type='http', auth='public', website=True)
     def service_page(self, service, **kwargs):
-        """Display service detail page."""
+        """Display service detail page (database record overrides static templates)."""
+        Service = request.env['modulio.service'].sudo()
+        dynamic = Service.search([
+            ('website_published', '=', True),
+            '|',
+            ('slug', '=', service),
+            ('id', '=', int(service) if service.isdigit() else 0),
+        ], limit=1)
+        if dynamic:
+            return request.render('modulio_website.service_dynamic_page', {
+                'service': dynamic,
+            })
+
         service_templates = {
             'accounting': 'modulio_website.service_accounting_page',
             'hr': 'modulio_website.service_hr_page',
@@ -32,11 +50,11 @@ class ModulioPages(http.Controller):
             'web-app': 'modulio_website.service_odoo_page',
             'integration': 'modulio_website.service_odoo_page',
         }
-        
+
         template = service_templates.get(service)
         if not template:
             return request.not_found()
-        
+
         return request.render(template, {
             'service_slug': service,
         })

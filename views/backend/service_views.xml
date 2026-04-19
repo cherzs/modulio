@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_modulio_service_list" model="ir.ui.view">
+        <field name="name">modulio.service.list</field>
+        <field name="model">modulio.service</field>
+        <field name="arch" type="xml">
+            <list string="Services">
+                <field name="sequence" widget="handle"/>
+                <field name="card_number"/>
+                <field name="name"/>
+                <field name="slug"/>
+                <field name="is_published" widget="boolean_toggle"/>
+                <field name="is_landing_page" widget="boolean_toggle" optional="show"/>
+                <field name="website_id" groups="website.group_multi_website" optional="hide"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_modulio_service_form" model="ir.ui.view">
+        <field name="name">modulio.service.form</field>
+        <field name="model">modulio.service</field>
+        <field name="arch" type="xml">
+            <form string="Service">
+                <sheet>
+                    <field name="image" widget="image" class="oe_avatar" options="{'preview_image': 'image'}"/>
+                    <div class="oe_title">
+                        <label for="name" class="d-block"/>
+                        <h1 class="d-flex align-items-center gap-3 flex-wrap">
+                            <field name="name" class="text-break flex-grow-1" placeholder="Service title" nolabel="1"/>
+                            <field name="is_published" widget="boolean_toggle" string="Published"/>
+                        </h1>
+                    </div>
+                    <group name="essentials" string="URL &amp; listing">
+                        <field name="slug" placeholder="e.g. accounting"/>
+                        <field name="card_number" placeholder="01"/>
+                        <field name="sequence"/>
+                        <field name="is_landing_page" widget="boolean_toggle"/>
+                        <field name="website_id" groups="website.group_multi_website"/>
+                    </group>
+                    <group string="Listing card (grid on /services)">
+                        <field name="short_description" colspan="2" nolabel="1" placeholder="Short paragraph under the title on the services page"/>
+                    </group>
+                    <group string="Hero tags (3 small labels)">
+                        <field name="tag_1" placeholder="Tag 1"/>
+                        <field name="tag_2" placeholder="Tag 2"/>
+                        <field name="tag_3" placeholder="Tag 3"/>
+                    </group>
+                    <group string="Bullet points (listing)">
+                        <field name="feature_1"/>
+                        <field name="feature_2"/>
+                        <field name="feature_3"/>
+                    </group>
+                    <notebook>
+                        <page string="Detail page content" name="content">
+                            <field name="content" colspan="2" nolabel="1" placeholder="HTML body shown below the hero on the service page"/>
+                        </page>
+                        <page string="Hero stats (optional)" name="stats">
+                            <group>
+                                <group string="Stat 1">
+                                    <field name="stat_1_value"/>
+                                    <field name="stat_1_label"/>
+                                </group>
+                                <group string="Stat 2">
+                                    <field name="stat_2_value"/>
+                                    <field name="stat_2_label"/>
+                                </group>
+                                <group string="Stat 3">
+                                    <field name="stat_3_value"/>
+                                    <field name="stat_3_label"/>
+                                </group>
+                                <group string="Stat 4">
+                                    <field name="stat_4_value"/>
+                                    <field name="stat_4_label"/>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_modulio_service" model="ir.actions.act_window">
+        <field name="name">Services</field>
+        <field name="res_model">modulio.service</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create a service</p>
+            <p><strong>Slug</strong> becomes the URL: <code>/services/your-slug</code>. After install, four default services are created (accounting, hr, odoo, integration).</p>
+        </field>
+    </record>
+</odoo>

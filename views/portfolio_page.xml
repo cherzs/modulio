@@ -47,19 +47,17 @@
                 </section>
                 
                 <!-- Portfolio Grid -->
-                <section class="modulio-section bg-white">
+                <section class="modulio-section bg-white modulio-portfolio-listing">
                     <div class="container">
                         <t t-if="projects">
                             <div class="row g-4">
                                 <t t-foreach="projects" t-as="project">
-                                    <div class="col-lg-4 col-md-6">
-                                        <a t-att-href="'/portfolio/' + (project.slug or str(project.id))" class="text-decoration-none d-block h-100">
-                                            <div class="work-card h-100">
-                                                <div class="work-image">
-                                                    <t t-if="project.image">
-                                                        <img t-att-src="'/web/image/modulio.portfolio/' + str(project.id) + '/image_thumbnail'" 
-                                                             alt=""/>
-                                                    </t>
+                                    <div class="col-lg-4 col-md-6 d-flex">
+                                        <a t-att-href="'/portfolio/' + (project.slug or str(project.id))" class="text-decoration-none d-flex flex-column flex-grow-1 w-100">
+                                            <div class="work-card w-100">
+                                                <!-- img + card_listing_image_url: QWeb may not call Python methods reliably; inline bg also loses to dark-mode !important -->
+                                                <div class="work-image modulio-portfolio-thumb">
+                                                    <img t-att-src="project.card_listing_image_url" alt="" loading="lazy" width="600" height="200"/>
                                                 </div>
                                                 <div class="work-content">
                                                     <t t-if="project.category_id">
@@ -73,17 +71,17 @@
                                                     <p class="work-description">
                                                         <t t-esc="project.description"/>
                                                     </p>
-                                                    <t t-if="project.stat_1_value">
-                                                        <div class="work-stats">
+                                                    <div class="work-stats">
+                                                        <t t-if="project.stat_1_value">
                                                             <div class="work-stat">
                                                                 <div class="stat-value"><t t-esc="project.stat_1_value"/></div>
                                                                 <div class="stat-label"><t t-esc="project.stat_1_label"/></div>
                                                             </div>
-                                                            <span class="btn-text">
-                                                                CASE <span class="arrow">→</span>
-                                                            </span>
-                                                        </div>
-                                                    </t>
+                                                        </t>
+                                                        <span class="btn-text ms-auto">
+                                                            CASE <span class="arrow">→</span>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </a>
@@ -184,10 +182,10 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <t t-if="project.image">
-                                    <div class="radius-12 overflow-hidden mb-5" style="box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
-                                        <img t-att-src="'/web/image/modulio.portfolio/' + str(project.id) + '/image'" 
-                                             alt="" 
-                                             class="img-fluid w-100"/>
+                                    <div class="portfolio-detail-cover radius-12 overflow-hidden mb-5" style="box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                                        <img t-att-src="'/web/image/modulio.portfolio/' + str(project.id) + '/image'"
+                                             alt=""
+                                             class="img-fluid"/>
                                     </div>
                                 </t>
                                 
@@ -211,14 +209,11 @@
                             </div>
                             <div class="row g-4">
                                 <t t-foreach="related_projects" t-as="rel_project">
-                                    <div class="col-lg-4 col-md-6">
-                                        <a t-att-href="'/portfolio/' + (rel_project.slug or str(rel_project.id))" class="text-decoration-none d-block h-100">
-                                            <div class="work-card h-100">
-                                                <div class="work-image">
-                                                    <t t-if="rel_project.image">
-                                                        <img t-att-src="'/web/image/modulio.portfolio/' + str(rel_project.id) + '/image_thumbnail'" 
-                                                             alt=""/>
-                                                    </t>
+                                    <div class="col-lg-4 col-md-6 d-flex">
+                                        <a t-att-href="'/portfolio/' + (rel_project.slug or str(rel_project.id))" class="text-decoration-none d-flex flex-column flex-grow-1 w-100">
+                                            <div class="work-card w-100">
+                                                <div class="work-image modulio-portfolio-thumb">
+                                                    <img t-att-src="rel_project.card_listing_image_url" alt="" loading="lazy" width="600" height="200"/>
                                                 </div>
                                                 <div class="work-content">
                                                     <t t-if="rel_project.category_id">

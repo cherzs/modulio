@@ -487,10 +487,34 @@
                     </div>
                 </section>
                 
-                <!-- Services Grid -->
+                <!-- Services Grid: from Website > Configuration > Modulio > Services when published -->
                 <section class="modulio-section bg-cream">
                     <div class="container">
-                        <div class="row g-4">
+                        <div class="row g-4" t-if="services">
+                            <t t-foreach="services" t-as="svc">
+                                <div class="col-md-6">
+                                    <a t-attf-href="/services/{{ svc.slug }}" class="text-decoration-none">
+                                        <div class="service-card-numbered">
+                                            <div t-if="svc.image" class="mb-3 rounded overflow-hidden" style="max-height: 160px;">
+                                                <img t-attf-src="/web/image/modulio.service/{{ svc.id }}/image" alt="" class="w-100" style="object-fit: cover; max-height: 160px;"/>
+                                            </div>
+                                            <span class="card-number"><t t-esc="svc.card_number or ''"/></span>
+                                            <h3 class="card-title"><t t-esc="svc.name"/></h3>
+                                            <p class="card-description" t-if="svc.short_description">
+                                                <t t-esc="svc.short_description"/>
+                                            </p>
+                                            <ul class="card-features" t-if="svc.feature_1 or svc.feature_2 or svc.feature_3">
+                                                <li t-if="svc.feature_1"><t t-esc="svc.feature_1"/></li>
+                                                <li t-if="svc.feature_2"><t t-esc="svc.feature_2"/></li>
+                                                <li t-if="svc.feature_3"><t t-esc="svc.feature_3"/></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            </t>
+                        </div>
+
+                        <div class="row g-4" t-else="">
                             <div class="col-md-6">
                                 <a href="/services/accounting" class="text-decoration-none">
                                     <div class="service-card-numbered">
@@ -508,7 +532,6 @@
                                     </div>
                                 </a>
                             </div>
-                            
                             <div class="col-md-6">
                                 <a href="/services/hr" class="text-decoration-none">
                                     <div class="service-card-numbered">
@@ -526,7 +549,6 @@
                                     </div>
                                 </a>
                             </div>
-                            
                             <div class="col-md-6">
                                 <a href="/services/odoo" class="text-decoration-none">
                                     <div class="service-card-numbered">
@@ -544,7 +566,6 @@
                                     </div>
                                 </a>
                             </div>
-                            
                             <div class="col-md-6">
                                 <a href="/services/integration" class="text-decoration-none">
                                     <div class="service-card-numbered">

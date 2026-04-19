@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Dynamic service page from modulio.service -->
+    <template id="service_dynamic_page" name="Service (dynamic)">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'service-dynamic'"/>
+
+            <div id="wrap">
+                <section
+                    t-att-class="'hero-section service-dynamic-hero ' + ('oe_img_bg o_bg_img_center' if service.image else 'bg-navy')"
+                    t-att-style="service.image and ('background-image: url(/web/image/modulio.service/%s/image); background-size: cover; background-position: center;' % service.id)">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 hero-content">
+                                <div class="hero-tags" t-if="service.tag_1 or service.tag_2 or service.tag_3">
+                                    <span t-if="service.tag_1"><t t-esc="service.tag_1"/></span>
+                                    <span t-if="service.tag_2"><t t-esc="service.tag_2"/></span>
+                                    <span t-if="service.tag_3"><t t-esc="service.tag_3"/></span>
+                                </div>
+
+                                <h1 class="hero-title">
+                                    <t t-esc="service.name"/>
+                                </h1>
+
+                                <p class="hero-description" t-if="service.short_description">
+                                    <t t-esc="service.short_description"/>
+                                </p>
+
+                                <div class="hero-buttons">
+                                    <a href="/appointment/1" class="btn-primary-coral" t-translation="on">Book a consultation</a>
+                                    <a href="#service-body" class="btn-outline-light" t-translation="on">Learn more <span class="arrow">→</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+                                <div class="hero-stats w-100">
+                                    <t t-if="service.stat_1_value">
+                                        <div class="stat-item">
+                                            <div class="stat-value"><t t-esc="service.stat_1_value"/></div>
+                                            <div class="stat-label"><t t-esc="service.stat_1_label"/></div>
+                                        </div>
+                                    </t>
+                                    <t t-if="service.stat_2_value">
+                                        <div class="stat-item">
+                                            <div class="stat-value"><t t-esc="service.stat_2_value"/></div>
+                                            <div class="stat-label"><t t-esc="service.stat_2_label"/></div>
+                                        </div>
+                                    </t>
+                                    <t t-if="service.stat_3_value">
+                                        <div class="stat-item">
+                                            <div class="stat-value"><t t-esc="service.stat_3_value"/></div>
+                                            <div class="stat-label"><t t-esc="service.stat_3_label"/></div>
+                                        </div>
+                                    </t>
+                                    <t t-if="service.stat_4_value">
+                                        <div class="stat-item">
+                                            <div class="stat-value"><t t-esc="service.stat_4_value"/></div>
+                                            <div class="stat-label"><t t-esc="service.stat_4_label"/></div>
+                                        </div>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="modulio-section bg-cream service-dynamic-body-section" id="service-body" t-if="service.content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <span class="section-label d-block mb-3" t-translation="on">Overview</span>
+                                <div class="service-dynamic-content-card">
+                                    <div class="service-dynamic-content" t-field="service.content"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+            </div>
+        </t>
+    </template>
+</odoo>

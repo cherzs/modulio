@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!-- Portfolio/Work Section - Card Style with Stats -->
+    <!-- Portfolio/Work Section — records with is_landing_page (max 3 enforced in backend) -->
     <template id="s_modulio_portfolio" name="Portfolio Preview">
+        <t t-set="lp_projects" t-value="request.env['modulio.portfolio'].sudo().search([('website_published', '=', True), ('is_landing_page', '=', True)], order='sequence, id desc', limit=3)"/>
         <section class="modulio-section bg-white">
             <div class="container">
                 <!-- Header -->
@@ -14,105 +15,51 @@
                     </div>
                     <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
                         <p class="section-subtitle mb-0" t-translation="on">
-                            A look at engagements where structured systems thinking 
+                            A look at engagements where structured systems thinking
                             translated into real, recurring efficiency.
                         </p>
                     </div>
                 </div>
-                
-                <!-- Work Cards -->
-                <div class="row g-4">
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 col-md-6">
-                        <a href="/portfolio/manufacturing-erp" class="text-decoration-none">
-                            <div class="work-card">
-                                <div class="work-image oe_img_bg o_bg_img_center" 
-                                     style="background-image: url('/web/image/website.library_image_08');">
-                                </div>
-                                <div class="work-content">
-                                    <span class="work-category" t-translation="on">Manufacturing</span>
-                                    <h3 class="work-title" t-translation="on">
-                                        Closing the books in five days, not twenty.
-                                    </h3>
-                                    <p class="work-description" t-translation="on">
-                                        Replaced spreadsheet-driven consolidation with a unified Odoo 
-                                        deployment across four legal entities.
-                                    </p>
-                                    <div class="work-stats">
-                                        <div class="work-stat">
-                                            <div class="stat-value">75%</div>
-                                            <div class="stat-label" t-translation="on">faster month-end close</div>
+
+                <!-- Work Cards (dynamic, max 3) -->
+                <div class="row g-4" t-if="lp_projects">
+                    <t t-foreach="lp_projects" t-as="project">
+                        <div class="col-lg-4 col-md-6">
+                            <a t-att-href="'/portfolio/' + (project.slug or str(project.id))" class="text-decoration-none">
+                                <div class="work-card">
+                                    <div class="work-image oe_img_bg o_bg_img_center"
+                                         t-attf-style="background-image: url('{{ project.card_listing_image_url }}');">
+                                    </div>
+                                    <div class="work-content">
+                                        <t t-if="project.category_id">
+                                            <span class="work-category">
+                                                <t t-esc="project.category_id.name"/>
+                                            </span>
+                                        </t>
+                                        <h3 class="work-title">
+                                            <t t-esc="project.name"/>
+                                        </h3>
+                                        <p class="work-description">
+                                            <t t-esc="project.description"/>
+                                        </p>
+                                        <div class="work-stats">
+                                            <t t-if="project.stat_1_value">
+                                                <div class="work-stat">
+                                                    <div class="stat-value"><t t-esc="project.stat_1_value"/></div>
+                                                    <div class="stat-label"><t t-esc="project.stat_1_label"/></div>
+                                                </div>
+                                            </t>
+                                            <span class="btn-text">
+                                                CASE <span class="arrow">→</span>
+                                            </span>
                                         </div>
-                                        <span class="btn-text">
-                                            CASE <span class="arrow">→</span>
-                                        </span>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <!-- Card 2 -->
-                    <div class="col-lg-4 col-md-6">
-                        <a href="/portfolio/professional-services" class="text-decoration-none">
-                            <div class="work-card">
-                                <div class="work-image oe_img_bg o_bg_img_center" 
-                                     style="background-image: url('/web/image/website.library_image_10');">
-                                </div>
-                                <div class="work-content">
-                                    <span class="work-category" t-translation="on">Professional Services</span>
-                                    <h3 class="work-title" t-translation="on">
-                                        Removing 1,200 manual entries per month.
-                                    </h3>
-                                    <p class="work-description" t-translation="on">
-                                        Designed approval flows and bank reconciliation rules that 
-                                        eliminated repetitive accounting work.
-                                    </p>
-                                    <div class="work-stats">
-                                        <div class="work-stat">
-                                            <div class="stat-value">1.2k</div>
-                                            <div class="stat-label" t-translation="on">manual entries automated</div>
-                                        </div>
-                                        <span class="btn-text">
-                                            CASE <span class="arrow">→</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <!-- Card 3 -->
-                    <div class="col-lg-4 col-md-6">
-                        <a href="/portfolio/ecommerce-integration" class="text-decoration-none">
-                            <div class="work-card">
-                                <div class="work-image oe_img_bg o_bg_img_center" 
-                                     style="background-image: url('/web/image/website.library_image_13');">
-                                </div>
-                                <div class="work-content">
-                                    <span class="work-category" t-translation="on">E-Commerce</span>
-                                    <h3 class="work-title" t-translation="on">
-                                        One source of truth across five platforms.
-                                    </h3>
-                                    <p class="work-description" t-translation="on">
-                                        Connected storefront, payments, 3PL, CRM, and accounting 
-                                        through a single integration layer.
-                                    </p>
-                                    <div class="work-stats">
-                                        <div class="work-stat">
-                                            <div class="stat-value">5</div>
-                                            <div class="stat-label" t-translation="on">systems unified</div>
-                                        </div>
-                                        <span class="btn-text">
-                                            CASE <span class="arrow">→</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                            </a>
+                        </div>
+                    </t>
                 </div>
-                
+
                 <!-- View All Button -->
                 <div class="text-center mt-5">
                     <a href="/portfolio" class="btn-primary-coral" t-translation="on">

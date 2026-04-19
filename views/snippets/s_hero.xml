@@ -2,8 +2,14 @@
 <odoo>
     <!-- Hero Section v2 - Meridian Style -->
     <template id="s_modulio_hero_v2" name="Hero Section">
-        <section class="hero-section oe_img_bg o_bg_img_center" 
-                 style="background-image: url('/modulio_website/static/images/hero.jpg');"
+        <t t-set="hero_config" t-value="request.env['modulio.hero.config'].get_config()"/>
+        <t t-set="default_hero_bg" t-value="'/modulio_website/static/images/hero.jpg'"/>
+        <t t-set="hero_bg_url" t-value="default_hero_bg"/>
+        <t t-if="hero_config and hero_config.image">
+            <t t-set="hero_bg_url" t-value="'/web/image/modulio.hero.config/' + str(hero_config.id) + '/image'"/>
+        </t>
+        <section class="hero-section oe_img_bg o_bg_img_center"
+                 t-att-style="'background-image: url(\'' + hero_bg_url + '\');'"
                  data-oe-expression="style.background-image">
             <!-- Overlay for text readability -->
             <div class="hero-overlay"></div>

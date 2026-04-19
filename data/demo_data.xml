@@ -70,6 +70,7 @@
             <field name="stat_3_label">manual errors</field>
             <field name="sequence">10</field>
             <field name="is_featured">True</field>
+            <field name="is_landing_page">True</field>
             <field name="website_published">True</field>
         </record>
         
@@ -109,6 +110,7 @@
             <field name="stat_3_label">employees</field>
             <field name="sequence">20</field>
             <field name="is_featured">True</field>
+            <field name="is_landing_page">True</field>
             <field name="website_published">True</field>
         </record>
         
@@ -149,6 +151,7 @@
             <field name="stat_3_label">faster response</field>
             <field name="sequence">30</field>
             <field name="is_featured">True</field>
+            <field name="is_landing_page">True</field>
             <field name="website_published">True</field>
         </record>
         

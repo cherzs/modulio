@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Default services (same copy as static /services cards + hero stats). Edit in Website > Configuration > Modulio > Services -->
+
+        <record id="service_demo_accounting" model="modulio.service">
+            <field name="name">Accounting setup with Odoo</field>
+            <field name="slug">accounting</field>
+            <field name="sequence">10</field>
+            <field name="card_number">01</field>
+            <field name="website_published">True</field>
+            <field name="is_landing_page">True</field>
+            <field name="tag_1">Accounting</field>
+            <field name="tag_2">Tax</field>
+            <field name="tag_3">Compliance</field>
+            <field name="short_description">Chart of accounts, tax structure, multi-entity, and reporting tailored to your business — implemented on Odoo with discipline.</field>
+            <field name="feature_1">Localized compliance</field>
+            <field name="feature_2">Multi-currency</field>
+            <field name="feature_3">Audit-ready reporting</field>
+            <field name="stat_1_value">75%</field>
+            <field name="stat_1_label">faster month-end close</field>
+            <field name="stat_2_value">100%</field>
+            <field name="stat_2_label">tax compliance</field>
+            <field name="stat_3_value">1.2k</field>
+            <field name="stat_3_label">entries automated</field>
+            <field name="stat_4_value">24/7</field>
+            <field name="stat_4_label">financial visibility</field>
+            <field name="content"><![CDATA[
+<section class="modulio-section"><div class="container">
+<p>We implement chart of accounts, tax structure, multi-entity reporting, and compliance workflows on Odoo — tailored to Indonesian regulations and your operating model.</p>
+<p><strong>Typical scope:</strong> automated P&amp;L, bank reconciliation, PPh 21 &amp; BPJS, and e-Faktur integration with DJP.</p>
+</div></section>
+            ]]></field>
+        </record>
+
+        <record id="service_demo_hr" model="modulio.service">
+            <field name="name">HR &amp; Payroll</field>
+            <field name="slug">hr</field>
+            <field name="sequence">20</field>
+            <field name="card_number">02</field>
+            <field name="website_published">True</field>
+            <field name="is_landing_page">True</field>
+            <field name="tag_1">Human Resources</field>
+            <field name="tag_2">Payroll</field>
+            <field name="tag_3">Compliance</field>
+            <field name="short_description">From payroll to performance evaluation, manage your entire workforce with full Indonesian labor law compliance.</field>
+            <field name="feature_1">Automated payroll</field>
+            <field name="feature_2">BPJS management</field>
+            <field name="feature_3">Employee self-service</field>
+            <field name="stat_1_value">15min</field>
+            <field name="stat_1_label">payroll processing</field>
+            <field name="stat_2_value">100%</field>
+            <field name="stat_2_label">labor compliance</field>
+            <field name="stat_3_value">80+</field>
+            <field name="stat_3_label">employees managed</field>
+            <field name="stat_4_value">0</field>
+            <field name="stat_4_label">payroll errors</field>
+            <field name="content"><![CDATA[
+<section class="modulio-section"><div class="container">
+<p>End-to-end HR on Odoo: payroll, BPJS, contracts, leave, expenses, and employee self-service — aligned with Indonesian labor rules.</p>
+<p><strong>Focus:</strong> fewer manual steps, fewer errors, and clear audit trails for HR and finance.</p>
+</div></section>
+            ]]></field>
+        </record>
+
+        <record id="service_demo_odoo" model="modulio.service">
+            <field name="name">ERP customization</field>
+            <field name="slug">odoo</field>
+            <field name="sequence">30</field>
+            <field name="card_number">03</field>
+            <field name="website_published">True</field>
+            <field name="is_landing_page">True</field>
+            <field name="tag_1">ERP</field>
+            <field name="tag_2">Odoo</field>
+            <field name="tag_3">Integration</field>
+            <field name="short_description">Modules, workflows, and approval logic shaped around how your teams actually work — without forking the platform.</field>
+            <field name="feature_1">Workflow design</field>
+            <field name="feature_2">Custom modules</field>
+            <field name="feature_3">Role &amp; access architecture</field>
+            <field name="stat_1_value">120+</field>
+            <field name="stat_1_label">implementations</field>
+            <field name="stat_2_value">15</field>
+            <field name="stat_2_label">industries served</field>
+            <field name="stat_3_value">50+</field>
+            <field name="stat_3_label">custom modules</field>
+            <field name="stat_4_value">98%</field>
+            <field name="stat_4_label">client satisfaction</field>
+            <field name="content"><![CDATA[
+<section class="modulio-section"><div class="container">
+<p>We customize Odoo with modules, workflows, approvals, and integrations — staying on standard Odoo where possible to keep upgrades smooth.</p>
+<p><strong>Deliverables:</strong> solution design, development, testing, training, and go-live support.</p>
+</div></section>
+            ]]></field>
+        </record>
+
+        <record id="service_demo_integration" model="modulio.service">
+            <field name="name">System integration</field>
+            <field name="slug">integration</field>
+            <field name="sequence">40</field>
+            <field name="card_number">04</field>
+            <field name="website_published">True</field>
+            <field name="is_landing_page">True</field>
+            <field name="tag_1">Integration</field>
+            <field name="tag_2">APIs</field>
+            <field name="tag_3">Data</field>
+            <field name="short_description">Connect Odoo with banks, CRMs, billing, e-commerce, and data warehouses — one source of truth, end to end.</field>
+            <field name="feature_1">Bank &amp; payment APIs</field>
+            <field name="feature_2">CRM &amp; e-commerce sync</field>
+            <field name="feature_3">Data pipelines</field>
+            <field name="stat_1_value">5+</field>
+            <field name="stat_1_label">systems unified</field>
+            <field name="stat_2_value">99.9%</field>
+            <field name="stat_2_label">uptime target</field>
+            <field name="stat_3_value">24/7</field>
+            <field name="stat_3_label">monitoring</field>
+            <field name="stat_4_value">0</field>
+            <field name="stat_4_label">manual re-keying</field>
+            <field name="content"><![CDATA[
+<section class="modulio-section"><div class="container">
+<p>We connect Odoo to banks, payment gateways, CRMs, storefronts, and BI tools with robust error handling and observability.</p>
+<p><strong>Outcome:</strong> one operational backbone, fewer spreadsheets, and reliable data for finance and operations.</p>
+</div></section>
+            ]]></field>
+        </record>
+    </data>
+</odoo>

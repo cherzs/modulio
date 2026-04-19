@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_modulio_portfolio_category_list" model="ir.ui.view">
+        <field name="name">modulio.portfolio.category.list</field>
+        <field name="model">modulio.portfolio.category</field>
+        <field name="arch" type="xml">
+            <list string="Portfolio Categories">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="slug"/>
+                <field name="project_count"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_modulio_portfolio_category_form" model="ir.ui.view">
+        <field name="name">modulio.portfolio.category.form</field>
+        <field name="model">modulio.portfolio.category</field>
+        <field name="arch" type="xml">
+            <form string="Portfolio Category">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="slug"/>
+                        <field name="sequence"/>
+                        <field name="color" widget="color"/>
+                        <field name="icon"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_modulio_portfolio_list" model="ir.ui.view">
+        <field name="name">modulio.portfolio.list</field>
+        <field name="model">modulio.portfolio</field>
+        <field name="arch" type="xml">
+            <list string="Portfolio Projects">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="slug"/>
+                <field name="category_id"/>
+                <field name="is_published" widget="boolean_toggle"/>
+                <field name="is_featured" widget="boolean_toggle" optional="show"/>
+                <field name="is_landing_page" widget="boolean_toggle" optional="show"/>
+                <field name="website_id" groups="website.group_multi_website" optional="hide"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_modulio_portfolio_form" model="ir.ui.view">
+        <field name="name">modulio.portfolio.form</field>
+        <field name="model">modulio.portfolio</field>
+        <field name="arch" type="xml">
+            <form string="Portfolio Project">
+                <sheet>
+                    <field name="image" widget="image" class="oe_avatar" options="{'preview_image': 'image', 'size': [128, 128]}"/>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name" placeholder="Project title"/></h1>
+                    </div>
+                    <group>
+                        <group string="URL &amp; classification">
+                            <field name="is_published" widget="boolean_toggle"/>
+                            <field name="slug"/>
+                            <field name="category_id"/>
+                            <field name="sequence"/>
+                            <field name="is_featured" widget="boolean_toggle"/>
+                            <field name="is_landing_page" widget="boolean_toggle"/>
+                            <field name="website_id" groups="website.group_multi_website"/>
+                        </group>
+                        <group string="Client">
+                            <field name="client_name"/>
+                            <field name="industry"/>
+                        </group>
+                    </group>
+                    <group string="Summary">
+                        <field name="description" colspan="2" nolabel="1"/>
+                    </group>
+                    <group string="Stats (detail hero)">
+                        <group>
+                            <field name="stat_1_value"/>
+                            <field name="stat_1_label"/>
+                        </group>
+                        <group>
+                            <field name="stat_2_value"/>
+                            <field name="stat_2_label"/>
+                        </group>
+                        <group>
+                            <field name="stat_3_value"/>
+                            <field name="stat_3_label"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Full content" name="content">
+                            <field name="content" colspan="2" nolabel="1" options="{'collaborative': true}"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_modulio_portfolio" model="ir.actions.act_window">
+        <field name="name">Portfolio Projects</field>
+        <field name="res_model">modulio.portfolio</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create a portfolio project</p>
+            <p>Add case studies with cover image and content. Published entries appear on /portfolio.</p>
+        </field>
+    </record>
+
+    <record id="action_modulio_portfolio_category" model="ir.actions.act_window">
+        <field name="name">Portfolio Categories</field>
+        <field name="res_model">modulio.portfolio.category</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

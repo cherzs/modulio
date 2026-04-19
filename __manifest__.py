@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Modulio Website - Landing Page",
-    "version": "18.0.2.0.0",
+    "version": "18.0.2.7.0",
     "summary": "Modulio Landing Page - Accounting Systems & Odoo Expert",
     "description": """
 Professional landing page for Modulio - Meridian Style Design
@@ -34,6 +34,12 @@ Brand Identity:
     ],
     "data": [
         "security/ir.model.access.csv",
+        "data/hero_config_data.xml",
+        "views/backend/hero_config_views.xml",
+        "views/backend/portfolio_views.xml",
+        "views/backend/service_views.xml",
+        "views/backend/website_menus.xml",
+        "views/service_dynamic.xml",
         "views/snippets/s_hero.xml",
         "views/snippets/s_services.xml",
         "views/snippets/s_testimonials.xml",
@@ -48,6 +54,7 @@ Brand Identity:
         "views/thank_you_page.xml",
         "views/layout.xml",
         "data/website_menu.xml",
+        "data/services_demo.xml",
         "data/demo_data.xml",
     ],
     "assets": {

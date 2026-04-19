@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_modulio_hero_config_form" model="ir.ui.view">
+        <field name="name">modulio.hero.config.form</field>
+        <field name="model">modulio.hero.config</field>
+        <field name="arch" type="xml">
+            <form string="Homepage Hero">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group string="Background">
+                        <field name="image" widget="image" nolabel="1" colspan="2" options="{'preview_image': 'image'}"/>
+                    </group>
+                    <div class="text-muted o_row">
+                        Shown on the homepage hero section. If empty, the default static image from the theme is used.
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_modulio_hero_config" model="ir.actions.act_window">
+        <field name="name">Homepage Hero</field>
+        <field name="res_model">modulio.hero.config</field>
+        <field name="view_mode">form</field>
+        <field name="res_id" ref="modulio_hero_config_default"/>
+        <field name="target">current</field>
+    </record>
+</odoo>
