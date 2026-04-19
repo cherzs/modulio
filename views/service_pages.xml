@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Accounting Service Page - Meridian Style -->
+    <template id="service_accounting_page" name="Accounting &amp; Tax Service">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'service-accounting'"/>
+            
+            <div id="wrap">
+                <!-- Hero Section -->
+                <section class="hero-section bg-navy">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 hero-content">
+                                <div class="hero-tags">
+                                    <span t-translation="on">Accounting</span>
+                                    <span t-translation="on">Tax</span>
+                                    <span t-translation="on">Compliance</span>
+                                </div>
+                                
+                                <h1 class="hero-title">
+                                    <span t-translation="on">Accounting setup</span><br/>
+                                    <span class="text-coral" t-translation="on">with Odoo.</span>
+                                </h1>
+                                
+                                <p class="hero-description" t-translation="on">
+                                    Chart of accounts, tax structure, multi-entity, and reporting 
+                                    tailored to your business — implemented on Odoo with discipline.
+                                </p>
+                                
+                                <div class="hero-buttons">
+                                    <a href="/appointment/1" class="btn-primary-coral" t-translation="on">
+                                        Book a consultation
+                                    </a>
+                                    <a href="#features" class="btn-outline-light" t-translation="on">
+                                        Learn more <span class="arrow">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-5 offset-lg-1">
+                                <div class="hero-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">75%</div>
+                                        <div class="stat-label" t-translation="on">faster month-end close</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">100%</div>
+                                        <div class="stat-label" t-translation="on">tax compliance</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">1.2k</div>
+                                        <div class="stat-label" t-translation="on">entries automated</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">24/7</div>
+                                        <div class="stat-label" t-translation="on">financial visibility</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Features Section -->
+                <section class="modulio-section bg-cream" id="features">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-lg-5">
+                                <span class="section-label" t-translation="on">Features</span>
+                                <h2 class="section-title" t-translation="on">
+                                    What's included in our accounting implementation.
+                                </h2>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+                                <p class="section-subtitle mb-0" t-translation="on">
+                                    A complete accounting system designed for Indonesian businesses, 
+                                    with full tax compliance and real-time reporting built in.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">01</span>
+                                    <h3 class="card-title" t-translation="on">Automated P&amp;L Reports</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Generate accurate profit &amp; loss statements automatically with 
+                                        real-time data from all business units.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Real-time generation</li>
+                                        <li t-translation="on">Multi-entity consolidation</li>
+                                        <li t-translation="on">Custom reporting periods</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">02</span>
+                                    <h3 class="card-title" t-translation="on">Bank Reconciliation</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Automatic bank statement import and reconciliation, 
+                                        reducing manual errors and saving hours every month.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">BCA, Mandiri, BNI, BRI support</li>
+                                        <li t-translation="on">Auto-matching rules</li>
+                                        <li t-translation="on">Exception handling</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">03</span>
+                                    <h3 class="card-title" t-translation="on">PPh 21 &amp; BPJS</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Automated tax calculations compliant with Indonesian 
+                                        regulations, including employee income tax and social security.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Latest tax regulations</li>
+                                        <li t-translation="on">BPJS Kesehatan &amp; Ketenagakerjaan</li>
+                                        <li t-translation="on">TER method support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">04</span>
+                                    <h3 class="card-title" t-translation="on">e-Faktur Integration</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Direct integration with DJP e-Faktur system for seamless 
+                                        tax invoice generation and reporting.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Auto-generate e-Faktur</li>
+                                        <li t-translation="on">Bulk upload support</li>
+                                        <li t-translation="on">SPT integration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- CTA Section -->
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- HR Service Page - Meridian Style -->
+    <template id="service_hr_page" name="Human Resources Service">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'service-hr'"/>
+            
+            <div id="wrap">
+                <!-- Hero Section -->
+                <section class="hero-section bg-navy">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 hero-content">
+                                <div class="hero-tags">
+                                    <span t-translation="on">Human Resources</span>
+                                    <span t-translation="on">Payroll</span>
+                                    <span t-translation="on">Compliance</span>
+                                </div>
+                                
+                                <h1 class="hero-title">
+                                    <span t-translation="on">HR systems,</span><br/>
+                                    <span class="text-coral" t-translation="on">built for scale.</span>
+                                </h1>
+                                
+                                <p class="hero-description" t-translation="on">
+                                    From payroll to performance evaluation, manage your entire 
+                                    workforce in one integrated platform with full Indonesian 
+                                    labor law compliance.
+                                </p>
+                                
+                                <div class="hero-buttons">
+                                    <a href="/appointment/1" class="btn-primary-coral" t-translation="on">
+                                        Book a consultation
+                                    </a>
+                                    <a href="#features" class="btn-outline-light" t-translation="on">
+                                        Learn more <span class="arrow">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-5 offset-lg-1">
+                                <div class="hero-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">15min</div>
+                                        <div class="stat-label" t-translation="on">payroll processing</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">100%</div>
+                                        <div class="stat-label" t-translation="on">labor compliance</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">80+</div>
+                                        <div class="stat-label" t-translation="on">employees managed</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">0</div>
+                                        <div class="stat-label" t-translation="on">payroll errors</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Features Section -->
+                <section class="modulio-section bg-cream" id="features">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-lg-5">
+                                <span class="section-label" t-translation="on">Features</span>
+                                <h2 class="section-title" t-translation="on">
+                                    What's included in our HR implementation.
+                                </h2>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+                                <p class="section-subtitle mb-0" t-translation="on">
+                                    A complete HR system designed for Indonesian businesses, 
+                                    with automated payroll and full labor law compliance.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">01</span>
+                                    <h3 class="card-title" t-translation="on">Employee Self-Service</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Empower employees with self-service portal for leave requests, 
+                                        expense claims, and profile updates.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Leave management</li>
+                                        <li t-translation="on">Expense claims</li>
+                                        <li t-translation="on">Document access</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">02</span>
+                                    <h3 class="card-title" t-translation="on">Automated Payroll</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Calculate salaries, overtime, deductions, and benefits 
+                                        automatically with 100% accuracy.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Salary calculations</li>
+                                        <li t-translation="on">Overtime &amp; allowances</li>
+                                        <li t-translation="on">Bank transfer integration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">03</span>
+                                    <h3 class="card-title" t-translation="on">BPJS Management</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Automatic BPJS Kesehatan &amp; Ketenagakerjaan calculations 
+                                        and reporting to stay compliant.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Auto-calculation</li>
+                                        <li t-translation="on">Reporting files</li>
+                                        <li t-translation="on">Employee registration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">04</span>
+                                    <h3 class="card-title" t-translation="on">Attendance &amp; Time Off</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Track attendance, manage time off, and integrate with 
+                                        payroll for accurate compensation.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Clock in/out tracking</li>
+                                        <li t-translation="on">Leave balances</li>
+                                        <li t-translation="on">Overtime calculation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- CTA Section -->
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- Odoo Customization Service Page - Meridian Style -->
+    <template id="service_odoo_page" name="Odoo Customization Service">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'service-odoo'"/>
+            
+            <div id="wrap">
+                <!-- Hero Section -->
+                <section class="hero-section bg-navy">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 hero-content">
+                                <div class="hero-tags">
+                                    <span t-translation="on">ERP</span>
+                                    <span t-translation="on">Odoo</span>
+                                    <span t-translation="on">Integration</span>
+                                </div>
+                                
+                                <h1 class="hero-title">
+                                    <span t-translation="on">Streamlining Business.</span><br/>
+                                    <span class="text-coral" t-translation="on">Simplifying Success.</span>
+                                </h1>
+                                
+                                <p class="hero-description" t-translation="on">
+                                    Modules, workflows, and approval logic shaped around how 
+                                    your teams actually work — without forking the platform.
+                                </p>
+                                
+                                <div class="hero-buttons">
+                                    <a href="/appointment/1" class="btn-primary-coral" t-translation="on">
+                                        Book a consultation
+                                    </a>
+                                    <a href="#features" class="btn-outline-light" t-translation="on">
+                                        Learn more <span class="arrow">→</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-5 offset-lg-1">
+                                <div class="hero-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-value">120+</div>
+                                        <div class="stat-label" t-translation="on">implementations</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">15</div>
+                                        <div class="stat-label" t-translation="on">industries served</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">50+</div>
+                                        <div class="stat-label" t-translation="on">custom modules</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-value">98%</div>
+                                        <div class="stat-label" t-translation="on">client satisfaction</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Features Section -->
+                <section class="modulio-section bg-cream" id="features">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-lg-5">
+                                <span class="section-label" t-translation="on">Features</span>
+                                <h2 class="section-title" t-translation="on">
+                                    What's included in our Odoo implementation.
+                                </h2>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+                                <p class="section-subtitle mb-0" t-translation="on">
+                                    Custom solutions designed around your unique business processes, 
+                                    built on Odoo's robust foundation without the technical debt.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">01</span>
+                                    <h3 class="card-title" t-translation="on">Custom Development</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Build custom modules that perfectly match your business 
+                                        processes and workflows.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Workflow design</li>
+                                        <li t-translation="on">Custom modules</li>
+                                        <li t-translation="on">Role &amp; access architecture</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">02</span>
+                                    <h3 class="card-title" t-translation="on">System Integration</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Connect Odoo with banks, CRMs, billing, e-commerce, and 
+                                        data warehouses — one source of truth.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Bank &amp; payment APIs</li>
+                                        <li t-translation="on">CRM &amp; e-commerce sync</li>
+                                        <li t-translation="on">Data pipelines</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">03</span>
+                                    <h3 class="card-title" t-translation="on">Data Migration</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Safely migrate your existing data from legacy systems 
+                                        to Odoo with full validation.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">Data mapping</li>
+                                        <li t-translation="on">Validation scripts</li>
+                                        <li t-translation="on">Rollback capability</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="service-card-numbered">
+                                    <span class="card-number">04</span>
+                                    <h3 class="card-title" t-translation="on">Training &amp; Support</h3>
+                                    <p class="card-description" t-translation="on">
+                                        Comprehensive team training and ongoing technical support 
+                                        to ensure long-term success.
+                                    </p>
+                                    <ul class="card-features">
+                                        <li t-translation="on">User training</li>
+                                        <li t-translation="on">Admin training</li>
+                                        <li t-translation="on">Ongoing support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- CTA Section -->
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+            </div>
+        </t>
+    </template>
+
+    <!-- Services List Page -->
+    <template id="services_list_page" name="Services Page">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'services'"/>
+            
+            <div id="wrap">
+                <!-- Hero -->
+                <section class="page-hero bg-navy">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <span class="section-label" style="color: var(--modulio-coral);" t-translation="on">Services</span>
+                                <h1 class="page-hero-title" t-translation="on">
+                                    A focused practice across four disciplines.
+                                </h1>
+                                <p class="page-hero-description" t-translation="on">
+                                    We work where finance, operations, and engineering meet — 
+                                    designing the systems that quietly run modern businesses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Services Grid -->
+                <section class="modulio-section bg-cream">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <a href="/services/accounting" class="text-decoration-none">
+                                    <div class="service-card-numbered">
+                                        <span class="card-number">01</span>
+                                        <h3 class="card-title" t-translation="on">Accounting setup with Odoo</h3>
+                                        <p class="card-description" t-translation="on">
+                                            Chart of accounts, tax structure, multi-entity, and reporting 
+                                            tailored to your business — implemented on Odoo with discipline.
+                                        </p>
+                                        <ul class="card-features">
+                                            <li t-translation="on">Localized compliance</li>
+                                            <li t-translation="on">Multi-currency</li>
+                                            <li t-translation="on">Audit-ready reporting</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <a href="/services/hr" class="text-decoration-none">
+                                    <div class="service-card-numbered">
+                                        <span class="card-number">02</span>
+                                        <h3 class="card-title" t-translation="on">HR &amp; Payroll</h3>
+                                        <p class="card-description" t-translation="on">
+                                            From payroll to performance evaluation, manage your entire 
+                                            workforce with full Indonesian labor law compliance.
+                                        </p>
+                                        <ul class="card-features">
+                                            <li t-translation="on">Automated payroll</li>
+                                            <li t-translation="on">BPJS management</li>
+                                            <li t-translation="on">Employee self-service</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <a href="/services/odoo" class="text-decoration-none">
+                                    <div class="service-card-numbered">
+                                        <span class="card-number">03</span>
+                                        <h3 class="card-title" t-translation="on">ERP customization</h3>
+                                        <p class="card-description" t-translation="on">
+                                            Modules, workflows, and approval logic shaped around how 
+                                            your teams actually work — without forking the platform.
+                                        </p>
+                                        <ul class="card-features">
+                                            <li t-translation="on">Workflow design</li>
+                                            <li t-translation="on">Custom modules</li>
+                                            <li t-translation="on">Role &amp; access architecture</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <a href="/services/integration" class="text-decoration-none">
+                                    <div class="service-card-numbered">
+                                        <span class="card-number">04</span>
+                                        <h3 class="card-title" t-translation="on">System integration</h3>
+                                        <p class="card-description" t-translation="on">
+                                            Connect Odoo with banks, CRMs, billing, e-commerce, and 
+                                            data warehouses — one source of truth, end to end.
+                                        </p>
+                                        <ul class="card-features">
+                                            <li t-translation="on">Bank &amp; payment APIs</li>
+                                            <li t-translation="on">CRM &amp; e-commerce sync</li>
+                                            <li t-translation="on">Data pipelines</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- CTA -->
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+            </div>
+        </t>
+    </template>
+</odoo>

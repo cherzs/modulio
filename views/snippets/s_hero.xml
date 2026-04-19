@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Hero Section v2 - Meridian Style -->
+    <template id="s_modulio_hero_v2" name="Hero Section">
+        <section class="hero-section oe_img_bg o_bg_img_center" 
+                 style="background-image: url('/modulio_website/static/images/hero.jpg');"
+                 data-oe-expression="style.background-image">
+            <!-- Overlay for text readability -->
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left Content -->
+                    <div class="col-lg-6 hero-content">
+                        <div class="hero-tags">
+                            <span t-translation="on">Accounting systems</span>
+                            <span t-translation="on">Odoo</span>
+                            <span t-translation="on">Integrations</span>
+                        </div>
+                        
+                        <h1 class="hero-title">
+                            <span t-translation="on">Streamlining Business.</span><br/>
+                            <span class="text-coral" t-translation="on">Simplifying Success.</span>
+                        </h1>
+                        
+                        <p class="hero-description" t-translation="on">
+                            We help finance and operations leaders implement, customize, and 
+                            connect accounting platforms — so your numbers, processes, and 
+                            decisions move at the same pace.
+                        </p>
+                        
+                        <div class="hero-buttons">
+                            <a href="/appointment/1" class="btn-primary-coral" t-translation="on">
+                                Book a consultation
+                            </a>
+                            <a href="/services" class="btn-outline-light" t-translation="on">
+                                Explore our services <span class="arrow">→</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Stats -->
+                    <div class="col-lg-5 offset-lg-1">
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-value">120+</div>
+                                <div class="stat-label" t-translation="on">Implementations delivered</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">40%</div>
+                                <div class="stat-label" t-translation="on">Avg. reduction in close time</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">15</div>
+                                <div class="stat-label" t-translation="on">Industries served</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-value">98%</div>
+                                <div class="stat-label" t-translation="on">Client retention</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

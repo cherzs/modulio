@@ -1,0 +1,2046 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* modulio_website
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-17 09:35+0000\n"
+"PO-Revision-Date: 2026-04-17 09:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_6
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>A logistics company with 50+ vehicles had no visibility into fleet costs. Fuel theft was suspected, maintenance was reactive, and driver performance couldn't be measured.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We built an integrated fleet management solution:</p>\n"
+"                <ul>\n"
+"                    <li>GPS tracking integration with Odoo</li>\n"
+"                    <li>Fuel consumption monitoring and alerts</li>\n"
+"                    <li>Preventive maintenance scheduling</li>\n"
+"                    <li>Driver performance scorecards</li>\n"
+"                    <li>Cost allocation to jobs/customers</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <ul>\n"
+"                    <li>Fuel costs reduced by 18%</li>\n"
+"                    <li>Maintenance downtime reduced by 40%</li>\n"
+"                    <li>Full cost visibility per vehicle and job</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_2
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>A professional services firm with 50+ employees was drowning in manual data entry. Their accounting team spent most of their time on repetitive tasks instead of analysis and strategy.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We automated their entire financial workflow:</p>\n"
+"                <ul>\n"
+"                    <li>Smart bank reconciliation with auto-matching rules</li>\n"
+"                    <li>Automated expense approval workflows</li>\n"
+"                    <li>Invoice generation from timesheets</li>\n"
+"                    <li>Recurring journal entries for fixed costs</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <ul>\n"
+"                    <li>1,200 manual entries eliminated monthly</li>\n"
+"                    <li>Accounting team capacity freed for analysis</li>\n"
+"                    <li>98% reduction in data entry errors</li>\n"
+"                    <li>Real-time cash flow visibility</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_5
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>A retail chain with 8 locations struggled with inventory visibility. Stock-outs at one location while excess inventory sat at another was common.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We implemented unified inventory management:</p>\n"
+"                <ul>\n"
+"                    <li>Real-time inventory sync across all locations</li>\n"
+"                    <li>Automated inter-warehouse transfer suggestions</li>\n"
+"                    <li>Reorder point automation</li>\n"
+"                    <li>Barcode scanning integration</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <ul>\n"
+"                    <li>Stock-out incidents reduced by 80%</li>\n"
+"                    <li>Inventory carrying costs reduced by 25%</li>\n"
+"                    <li>Real-time visibility across 8 locations</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_1
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>PT Maju Bersama, a mid-market manufacturer with four legal entities, was struggling with month-end close. Their finance team spent 20 days every month manually consolidating data from multiple spreadsheets, leading to delays in financial reporting and decision-making.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We implemented a unified Odoo ERP system across all four entities with:</p>\n"
+"                <ul>\n"
+"                    <li>Centralized chart of accounts with inter-company mapping</li>\n"
+"                    <li>Automated consolidation rules for real-time reporting</li>\n"
+"                    <li>Bank reconciliation automation for 3 major Indonesian banks</li>\n"
+"                    <li>Custom dashboards for management visibility</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <p>Within 3 months of go-live, the finance team achieved:</p>\n"
+"                <ul>\n"
+"                    <li>Month-end close reduced from 20 days to 5 days</li>\n"
+"                    <li>75% faster financial reporting</li>\n"
+"                    <li>Zero manual consolidation errors</li>\n"
+"                    <li>Real-time visibility across all entities</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_3
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>Retail Sukses Indonesia operated across 5 different platforms: Shopify storefront, Midtrans payments, a 3PL provider, separate CRM, and manual accounting in spreadsheets. Data silos caused inventory issues and customer service delays.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We built a unified Odoo system with custom integrations:</p>\n"
+"                <ul>\n"
+"                    <li>Real-time sync with Shopify orders and inventory</li>\n"
+"                    <li>Midtrans payment reconciliation</li>\n"
+"                    <li>3PL fulfillment tracking integration</li>\n"
+"                    <li>Unified customer data and history</li>\n"
+"                    <li>Automated accounting entries</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <ul>\n"
+"                    <li>5 systems unified into one platform</li>\n"
+"                    <li>Inventory accuracy improved to 99.5%</li>\n"
+"                    <li>Customer service response time cut by 60%</li>\n"
+"                    <li>Complete order visibility from click to delivery</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,content:modulio_website.portfolio_project_4
+msgid ""
+"\n"
+"                <h2>The Challenge</h2>\n"
+"                <p>Teknologi Nusantara's HR team spent 2 full days processing payroll for 200+ employees. Manual calculations led to errors and employee complaints.</p>\n"
+"                \n"
+"                <h2>Our Approach</h2>\n"
+"                <p>We implemented a complete HR and payroll automation:</p>\n"
+"                <ul>\n"
+"                    <li>Employee self-service portal for leave and expenses</li>\n"
+"                    <li>Automated attendance tracking integration</li>\n"
+"                    <li>PPh 21 calculation with TER method</li>\n"
+"                    <li>BPJS Kesehatan &amp; Ketenagakerjaan auto-calculation</li>\n"
+"                    <li>Direct bank transfer file generation</li>\n"
+"                </ul>\n"
+"                \n"
+"                <h2>The Results</h2>\n"
+"                <ul>\n"
+"                    <li>Payroll processing reduced to 15 minutes</li>\n"
+"                    <li>Zero calculation errors</li>\n"
+"                    <li>100% labor law compliance</li>\n"
+"                    <li>Employee satisfaction increased</li>\n"
+"                </ul>\n"
+"            "
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid ""
+"\"Payroll processing for 200+ employees used to take 2 days. \n"
+"                                Now it's done in 30 minutes with zero errors. The ROI was \n"
+"                                visible within the first month.\""
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"\"They didn't sell us software. They redesigned the \n"
+"                                way our finance team operates — and the system followed.\""
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid ""
+"\"They didn't sell us software. They redesigned the way our \n"
+"                                finance team operates — and the system followed. Month-end \n"
+"                                close went from 3 weeks to 5 days.\""
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid ""
+"\"We connected 5 different systems into one Odoo instance. \n"
+"                                No more manual data entry, no more reconciliation nightmares. \n"
+"                                Modulio delivered exactly what they promised.\""
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "01"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "02"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "03"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "04"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "1.2k"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "100%"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "120+"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "15"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "15min"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "24/7"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "40%"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "50+"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "75%"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "80+"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "98%"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid ""
+"<span class=\"btn-text\">\n"
+"                                                                CASE <span class=\"arrow\">→</span>\n"
+"                                                            </span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid ""
+"<span class=\"btn-text\">\n"
+"                                            CASE <span class=\"arrow\">→</span>\n"
+"                                        </span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "<span class=\"card-number\">01</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "<span class=\"card-number\">02</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "<span class=\"card-number\">03</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "<span class=\"card-number\">04</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "<span class=\"contact-value\">+62 812 3456 7890</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "<span class=\"contact-value\">Jakarta · Surabaya</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "<span class=\"contact-value\">hello@modulio.id</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "<span class=\"text-coral\">★★★★★</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "<span>BP</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "<span>RA</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "<span>SW</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid ""
+"A 30-minute consultation with a senior partner. We'll review your \n"
+"                                current stack, identify the highest-leverage improvements, and \n"
+"                                outline a path forward — no obligation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"A complete HR system designed for Indonesian businesses, \n"
+"                                    with automated payroll and full labor law compliance."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"A complete accounting system designed for Indonesian businesses, \n"
+"                                    with full tax compliance and real-time reporting built in."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "A consulting partner —"
+msgstr "Mitra konsultan —"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "A focused practice across four"
+msgstr "Praktik terfokus di empat"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "A focused practice across four disciplines."
+msgstr "Praktik terfokus di empat disiplin."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid ""
+"A look at engagements where structured systems thinking \n"
+"                                    translated into real, recurring efficiency."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid ""
+"A look at engagements where structured systems thinking \n"
+"                            translated into real, recurring efficiency."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "A structured approach to every engagement."
+msgstr "Pendekatan terstruktur untuk setiap proyek."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "API-first architecture"
+msgstr "Arsitektur API-first"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Accounting"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Accounting setup"
+msgstr "Setup Akuntansi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Accounting setup with Odoo"
+msgstr "Setup Akuntansi dengan Odoo"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Accounting systems"
+msgstr "Sistem Akuntansi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_footer_replace
+msgid "Accounting systems · Odoo · Integrations"
+msgstr "Sistem Akuntansi · Odoo · Integrasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Accounting systems,"
+msgstr "Sistem akuntansi,"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Admin training"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Agile development"
+msgstr "Pengembangan Agile"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid "All Projects"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_footer_replace
+msgid "All rights reserved."
+msgstr "Hak cipta dilindungi."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Approach"
+msgstr "Pendekatan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Attendance &amp; Time Off"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Audit-ready reporting"
+msgstr "Laporan siap audit"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Auto-calculation"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Auto-generate e-Faktur"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Auto-matching rules"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Automated P&amp;L Reports"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Automated Payroll"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_4
+msgid ""
+"Automated complete HR and payroll process including BPJS, PPh 21, and bank "
+"transfers."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Automated payroll"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"Automated tax calculations compliant with Indonesian \n"
+"                                        regulations, including employee income tax and social security."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"Automatic BPJS Kesehatan &amp; Ketenagakerjaan calculations \n"
+"                                        and reporting to stay compliant."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"Automatic bank statement import and reconciliation, \n"
+"                                        reducing manual errors and saving hours every month."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Avg. reduction in close time"
+msgstr "Rata-rata pengurangan waktu closing"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "BCA, Mandiri, BNI, BRI support"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "BPJS Kesehatan &amp; Ketenagakerjaan"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "BPJS Management"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "BPJS management"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Bank &amp; payment APIs"
+msgstr "API Bank & pembayaran"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Bank Reconciliation"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Bank transfer integration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Begin a Conversation"
+msgstr "Mulai Percakapan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Book a consultation"
+msgstr "Jadwalkan konsultasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Book consultation"
+msgstr "Jadwalkan Konsultasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Book consultation <span class=\"arrow\">→</span>"
+msgstr "Jadwalkan konsultasi <span class=\"arrow\">→</span>"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "Budi Pratama"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Build"
+msgstr "Bangun"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Build custom modules that perfectly match your business \n"
+"                                        processes and workflows."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Bulk upload support"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "CFO"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "CFO, PT Maju Bersama"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_detail_page
+msgid "CLIENT"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "COO, Retail Sukses Indonesia"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "CRM &amp; e-commerce sync"
+msgstr "Sinkronisasi CRM & e-commerce"
+
+#. module: modulio_website
+#: model:ir.model.fields,help:modulio_website.field_modulio_portfolio_category__icon
+msgid "CSS class for icon"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"Calculate salaries, overtime, deductions, and benefits \n"
+"                                        automatically with 100% accuracy."
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__can_publish
+msgid "Can Publish"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__category_id
+msgid "Category"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__name
+msgid "Category Name"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid ""
+"Chart of accounts, tax structure, multi-entity, and reporting \n"
+"                                            tailored to your business — implemented on Odoo with discipline."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"Chart of accounts, tax structure, multi-entity, and reporting \n"
+"                                    tailored to your business — implemented on Odoo with discipline."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_whatsapp_button
+msgid "Chat via WhatsApp"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid "Check back soon for new case studies."
+msgstr "Periksa kembali segera untuk studi kasus baru."
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__client_logo
+msgid "Client Logo"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__client_name
+msgid "Client Name"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "Client Reviews"
+msgstr "Ulasan Klien"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "Client portals"
+msgstr "Portal klien"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Client retention"
+msgstr "Retensi klien"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Clock in/out tracking"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_1
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Closing the books in five days, not twenty."
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__color
+msgid "Color"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Compliance"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Comprehensive team training and ongoing technical support \n"
+"                                        to ensure long-term success."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid ""
+"Connect Odoo with banks, CRMs, billing, e-commerce, and \n"
+"                                            data warehouses — one source of truth, end to end."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Connect Odoo with banks, CRMs, billing, e-commerce, and \n"
+"                                        data warehouses — one source of truth."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid ""
+"Connect Odoo with banks, CRMs, billing, e-commerce, and \n"
+"                                    data warehouses — one source of truth, end to end."
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_6
+msgid ""
+"Connected GPS fleet tracking with fuel management, maintenance, and "
+"accounting systems."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid ""
+"Connected storefront, payments, 3PL, CRM, and accounting \n"
+"                                        through a single integration layer."
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_3
+msgid ""
+"Connected storefront, payments, 3PL, CRM, and accounting through a single "
+"integration layer."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Contact"
+msgstr "Kontak"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__image
+msgid "Cover Image"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__create_uid
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__create_date
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Custom Development"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Custom modules"
+msgstr "Modul kustom"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Custom reporting periods"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Custom solutions designed around your unique business processes, \n"
+"                                    built on Odoo's robust foundation without the technical debt."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Data Migration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Data mapping"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Data migration"
+msgstr "Migrasi data"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Data pipelines"
+msgstr "Pipeline data"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Design"
+msgstr "Desain"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid ""
+"Designed approval flows and bank reconciliation rules that \n"
+"                                        eliminated repetitive accounting work."
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_2
+msgid ""
+"Designed approval flows and bank reconciliation rules that eliminated "
+"repetitive accounting work."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"Direct integration with DJP e-Faktur system for seamless \n"
+"                                        tax invoice generation and reporting."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Discovery"
+msgstr "Penemuan"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__display_name
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Document access"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_3
+#: model:modulio.portfolio.category,name:modulio_website.portfolio_category_ecommerce
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "E-Commerce"
+msgstr "E-Commerce"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "E-Commerce Integration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "ERP"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "ERP customization"
+msgstr "Kustomisasi ERP"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "ERP customization,"
+msgstr "Kustomisasi ERP,"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "Efficiency by design"
+msgstr "Efisiensi by design"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Email"
+msgstr "Email"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Employee Self-Service"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Employee registration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Employee self-service"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"Empower employees with self-service portal for leave requests, \n"
+"                                        expense claims, and profile updates."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"Every workflow we ship removes manual work. We measure success \n"
+"                                    in hours saved and errors prevented."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Exception handling"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Expense claims"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Explore our services <span class=\"arrow\">→</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__is_featured
+msgid "Featured on Homepage"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Features"
+msgstr "Fitur"
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_6
+msgid "Fleet tracking integrated with accounting."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid ""
+"From payroll to performance evaluation, manage your entire \n"
+"                                            workforce with full Indonesian labor law compliance."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"From payroll to performance evaluation, manage your entire \n"
+"                                    workforce in one integrated platform with full Indonesian \n"
+"                                    labor law compliance."
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__content
+msgid "Full Content"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Gap analysis"
+msgstr "Analisis gap"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid ""
+"Generate accurate profit &amp; loss statements automatically with \n"
+"                                        real-time data from all business units."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Go-live support"
+msgstr "Dukungan go-live"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "HR &amp; Payroll"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "HR Director, Teknologi Nusantara"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_4
+msgid "HR payroll for 200 employees in 15 minutes."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "HR systems,"
+msgstr "Sistem HR,"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "How We Work"
+msgstr "Cara Kami Bekerja"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Human Resources"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__id
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__id
+msgid "ID"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__icon
+msgid "Icon Class"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Implementations delivered"
+msgstr "Implementasi selesai"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Industries served"
+msgstr "Industri dilayani"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__industry
+msgid "Industry"
+msgstr "Industri"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Integration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "Integrations"
+msgstr "Integrasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "Internal tools"
+msgstr "Alat internal"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid ""
+"Internal tools, customer portals, and operational software built \n"
+"                                    to integrate cleanly with your accounting and ERP layer."
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__is_published
+msgid "Is Published"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Iterative refinement"
+msgstr "Penyempurnaan iteratif"
+
+#. module: modulio_website
+#: model:website.menu,name:modulio_website.menu_modulio_contact
+msgid "Jadwalkan Demo"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__write_uid
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__write_date
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Latest tax regulations"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Launch"
+msgstr "Peluncuran"
+
+#. module: modulio_website
+#: model:website.menu,name:modulio_website.menu_modulio_services
+msgid "Layanan"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Learn more <span class=\"arrow\">→</span>"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Leave balances"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Leave management"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Let's design the system your finance team deserves."
+msgstr "Mari rancang sistem yang layak untuk tim keuangan Anda."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Localized compliance"
+msgstr "Kepatuhan lokal"
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_6
+#: model:modulio.portfolio.category,name:modulio_website.portfolio_category_logistics
+msgid "Logistics"
+msgstr "Logistik"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_footer_replace
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Logo"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "MID-MARKET MANUFACTURER"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_1
+#: model:modulio.portfolio.category,name:modulio_website.portfolio_category_manufacturing
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Manufacturing"
+msgstr "Manufaktur"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Manufacturing ERP"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid ""
+"Modules, workflows, and approval logic shaped around how \n"
+"                                            your teams actually work — without forking the platform."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Modules, workflows, and approval logic shaped around how \n"
+"                                    your teams actually work — without forking the platform."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Multi-currency"
+msgstr "Multi-mata uang"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Multi-entity consolidation"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_5
+msgid "Multi-warehouse inventory visibility in real-time."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid "No projects found"
+msgstr "Tidak ada proyek ditemukan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Office"
+msgstr "Kantor"
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_3
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "One source of truth across five platforms."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Ongoing support"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Outcomes our clients can measure."
+msgstr "Hasil yang dapat diukur klien kami."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Overtime &amp; allowances"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Overtime calculation"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "PPh 21 &amp; BPJS"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Payroll"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Phone"
+msgstr "Telepon"
+
+#. module: modulio_website
+#: model:ir.model,name:modulio_website.model_modulio_portfolio_category
+msgid "Portfolio Category"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model,name:modulio_website.model_modulio_portfolio
+msgid "Portfolio Project"
+msgstr ""
+
+#. module: modulio_website
+#: model:website.menu,name:modulio_website.menu_modulio_portfolio
+msgid "Portofolio"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"Predictable delivery, documented architecture, and clean handover. \n"
+"                                    The system runs without us long after go-live."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Process documentation"
+msgstr "Dokumentasi proses"
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_2
+#: model:modulio.portfolio.category,name:modulio_website.portfolio_category_professional
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Professional Services"
+msgstr "Layanan Profesional"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__project_count
+msgid "Project Count"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__name
+msgid "Project Name"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__project_ids
+msgid "Projects"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid ""
+"Real feedback from finance leaders and operations teams \n"
+"                            who transformed their systems with Modulio."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Real-time generation"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_detail_page
+msgid "Related Work"
+msgstr "Karya Terkait"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "Reliability first"
+msgstr "Keandalan utama"
+
+#. module: modulio_website
+#: model:modulio.portfolio,name:modulio_website.portfolio_project_2
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Removing 1,200 manual entries per month."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid ""
+"Replaced spreadsheet-driven consolidation with a unified Odoo \n"
+"                                        deployment across four legal entities."
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_1
+msgid ""
+"Replaced spreadsheet-driven consolidation with a unified Odoo deployment "
+"across four legal entities."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Reporting files"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_5
+#: model:modulio.portfolio.category,name:modulio_website.portfolio_category_retail
+msgid "Retail"
+msgstr "Ritel"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "Rizki Andrianto"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Role &amp; access architecture"
+msgstr "Arsitektur role & akses"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Rollback capability"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "SPT integration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid ""
+"Safely migrate your existing data from legacy systems \n"
+"                                        to Odoo with full validation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "Salary calculations"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "Sari Wulandari"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "Selected Work"
+msgstr "Karya Terpilih"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "Senior consultants"
+msgstr "Konsultan senior"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__sequence
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Services"
+msgstr "Layanan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "Our Services"
+msgstr "Layanan Kami"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__description
+msgid "Short Description"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_detail_page
+msgid "Similar engagements"
+msgstr "Proyek serupa"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Solution architecture"
+msgstr "Arsitektur solusi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Stakeholder interviews"
+msgstr "Wawancara stakeholder"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_detail_page
+msgid "Start similar project"
+msgstr "Mulai proyek serupa"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_1_label
+msgid "Stat 1 Label"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_1_value
+msgid "Stat 1 Value"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_2_label
+msgid "Stat 2 Label"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_2_value
+msgid "Stat 2 Value"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_3_label
+msgid "Stat 3 Label"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__stat_3_value
+msgid "Stat 3 Value"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "System Integration"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "System integration"
+msgstr "Integrasi sistem"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "System thinking"
+msgstr "Berpikir sistematis"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "TER method support"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "Tax"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Team training"
+msgstr "Pelatihan tim"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Technical specification"
+msgstr "Spesifikasi teknis"
+
+#. module: modulio_website
+#: model:modulio.portfolio,industry:modulio_website.portfolio_project_4
+msgid "Technology"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,help:modulio_website.field_modulio_portfolio__website_url
+msgid "The full URL to access the document through the website."
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__image_thumbnail
+msgid "Thumbnail"
+msgstr ""
+
+#. module: modulio_website
+#: model:website.menu,name:modulio_website.menu_modulio_team
+msgid "Tim"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Toggle theme"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid ""
+"Track attendance, manage time off, and integrate with \n"
+"                                        payroll for accurate compensation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Training &amp; Support"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__slug
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio_category__slug
+msgid "URL Slug"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,help:modulio_website.field_modulio_portfolio__slug
+msgid "URL-friendly name for the project"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,description:modulio_website.portfolio_project_5
+msgid ""
+"Unified inventory management across 8 retail locations with real-time stock "
+"visibility."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "User training"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "Validation scripts"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_page
+msgid "View All Projects"
+msgstr "Lihat Semua Proyek"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "View all case studies <span class=\"arrow\">→</span>"
+msgstr "Lihat semua studi kasus <span class=\"arrow\">→</span>"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.portfolio_detail_page
+msgid "View all cases <span class=\"arrow\">→</span>"
+msgstr "Lihat semua kasus <span class=\"arrow\">→</span>"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__website_published
+msgid "Visible on current website"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid ""
+"We architect the solution with you, ensuring every \n"
+"                                workflow matches how your team actually works."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"We are accountable for outcomes, not deliverables. \n"
+"                            Our engagements are sized to the problem and led \n"
+"                            by people who have built finance systems for a living."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid ""
+"We follow a proven methodology that ensures predictable delivery, \n"
+"                            clear communication, and measurable outcomes."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid ""
+"We help finance and operations leaders implement, customize, and \n"
+"                            connect accounting platforms — so your numbers, processes, and \n"
+"                            decisions move at the same pace."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid ""
+"We implement in sprints with regular demos. \n"
+"                                You see progress every week, not just at the end."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid ""
+"We map your current systems, pain points, and goals. \n"
+"                                No assumptions — just thorough analysis."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid ""
+"We train your team, migrate data, and go live \n"
+"                                with full support. The system runs without us."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"We treat accounting, operations, and software as one system — not \n"
+"                                    separate projects. Decisions are made for the whole, not the part."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid ""
+"We work where finance, operations, and engineering meet — \n"
+"                                    designing the systems that quietly run modern businesses."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid ""
+"We work where finance, operations, and engineering meet — designing the \n"
+"                            systems that quietly run modern businesses. Each engagement is led by \n"
+"                            senior consultants and shaped to your operating model."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "Web application development"
+msgstr "Pengembangan aplikasi web"
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__website_id
+msgid "Website"
+msgstr ""
+
+#. module: modulio_website
+#: model:ir.model.fields,field_description:modulio_website.field_modulio_portfolio__website_url
+msgid "Website URL"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+msgid "Weekly demos"
+msgstr "Demo mingguan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_testimonials
+msgid "What our clients say about working with us."
+msgstr "Apa kata klien tentang bekerja dengan kami."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "What's included in our HR implementation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "What's included in our Odoo implementation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "What's included in our accounting implementation."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "Why Modulio"
+msgstr "Mengapa Modulio"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "Why Choose Modulio"
+msgstr "Mengapa Memilih Modulio"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.modulio_header_replace
+msgid "Work"
+msgstr "Portofolio"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_process
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+#: model_terms:ir.ui.view,arch_db:modulio_website.services_list_page
+msgid "Workflow design"
+msgstr "Desain alur kerja"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid ""
+"You work directly with the people designing your system. No layered \n"
+"                                    teams, no diluted accountability."
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "built for scale."
+msgstr "dibangun untuk skala."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "client satisfaction"
+msgstr "kepuasan klien"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_5
+msgid "cost reduction"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "custom modules"
+msgstr "modul kustom"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_services
+msgid "disciplines."
+msgstr "disiplin."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "e-Faktur Integration"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_4
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_2
+msgid "employees"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "employees managed"
+msgstr "karyawan dikelola"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_hero_v2
+msgid "engineered for clarity."
+msgstr "dirancang untuk kejelasan."
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_1
+msgid "entities unified"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_2
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "entries automated"
+msgstr "entri terotomasi"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_2
+msgid "error reduction"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_4
+msgid "errors"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_1
+msgid "faster close"
+msgstr "closing lebih cepat"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "faster month-end close"
+msgstr "closing bulanan lebih cepat"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_3
+msgid "faster response"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "financial visibility"
+msgstr "visibilitas keuangan"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_6
+msgid "fuel savings"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "implementations"
+msgstr "implementasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "industries served"
+msgstr "industri dilayani"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_3
+msgid "inventory accuracy"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "labor compliance"
+msgstr "kepatuhan ketenagakerjaan"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_6
+msgid "less downtime"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_2_label:modulio_website.portfolio_project_5
+msgid "less stockouts"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_5
+msgid "locations"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "manual entries automated"
+msgstr "entri manual terotomasi"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_3_label:modulio_website.portfolio_project_1
+msgid "manual errors"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_pain_points
+msgid "not a vendor."
+msgstr "bukan vendor."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "payroll errors"
+msgstr "kesalahan payroll"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_hr_page
+msgid "payroll processing"
+msgstr "proses payroll"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_4
+msgid "payroll time"
+msgstr ""
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_3
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_portfolio
+msgid "systems unified"
+msgstr "sistem terintegrasi"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "tax compliance"
+msgstr "kepatuhan pajak"
+
+#. module: modulio_website
+#: model:modulio.portfolio,stat_1_label:modulio_website.portfolio_project_6
+msgid "vehicles"
+msgstr ""
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_accounting_page
+msgid "with Odoo."
+msgstr "dengan Odoo."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.service_odoo_page
+msgid "without the fork."
+msgstr "tanpa fork."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Send us a message"
+msgstr "Kirim pesan kepada kami"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Your Name"
+msgstr "Nama Anda"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Company"
+msgstr "Perusahaan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "How can we help?"
+msgstr "Bagaimana kami bisa membantu?"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.s_modulio_cta_form
+msgid "Send Message"
+msgstr "Kirim Pesan"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.contact_thank_you_page
+msgid "Thank You!"
+msgstr "Terima Kasih!"
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.contact_thank_you_page
+msgid "Your message has been sent successfully. Our team will get back to you within 24 hours."
+msgstr "Pesan Anda berhasil terkirim. Tim kami akan menghubungi Anda dalam 24 jam."
+
+#. module: modulio_website
+#: model_terms:ir.ui.view,arch_db:modulio_website.contact_thank_you_page
+msgid "Back to Home"
+msgstr "Kembali ke Beranda"

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Client Reviews Section - Meridian Style -->
+    <template id="s_modulio_testimonials" name="Client Reviews">
+        <section class="modulio-section bg-white" id="reviews">
+            <div class="container">
+                <!-- Header -->
+                <div class="row mb-5">
+                    <div class="col-lg-5">
+                        <span class="section-label" t-translation="on">Client Reviews</span>
+                        <h2 class="section-title" t-translation="on">
+                            What our clients say about working with us.
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+                        <p class="section-subtitle mb-0" t-translation="on">
+                            Real feedback from finance leaders and operations teams 
+                            who transformed their systems with Modulio.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial Cards -->
+                <div class="row g-4">
+                    <!-- Testimonial 1 -->
+                    <div class="col-lg-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating mb-3">
+                                <span class="text-coral">★★★★★</span>
+                            </div>
+                            <p class="testimonial-text" t-translation="on">
+                                "They didn't sell us software. They redesigned the way our 
+                                finance team operates — and the system followed. Month-end 
+                                close went from 3 weeks to 5 days."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>RA</span>
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name" t-translation="on">Rizki Andrianto</div>
+                                    <div class="author-role" t-translation="on">CFO, PT Maju Bersama</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="col-lg-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating mb-3">
+                                <span class="text-coral">★★★★★</span>
+                            </div>
+                            <p class="testimonial-text" t-translation="on">
+                                "Payroll processing for 200+ employees used to take 2 days. 
+                                Now it's done in 30 minutes with zero errors. The ROI was 
+                                visible within the first month."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>SW</span>
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name" t-translation="on">Sari Wulandari</div>
+                                    <div class="author-role" t-translation="on">HR Director, Teknologi Nusantara</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="col-lg-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating mb-3">
+                                <span class="text-coral">★★★★★</span>
+                            </div>
+                            <p class="testimonial-text" t-translation="on">
+                                "We connected 5 different systems into one Odoo instance. 
+                                No more manual data entry, no more reconciliation nightmares. 
+                                Modulio delivered exactly what they promised."
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>BP</span>
+                                </div>
+                                <div class="author-info">
+                                    <div class="author-name" t-translation="on">Budi Pratama</div>
+                                    <div class="author-role" t-translation="on">COO, Retail Sukses Indonesia</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_modulio_portfolio_public,modulio.portfolio.public,model_modulio_portfolio,,1,0,0,0
+access_modulio_portfolio_admin,modulio.portfolio.admin,model_modulio_portfolio,website.group_website_designer,1,1,1,1
+access_modulio_portfolio_category_public,modulio.portfolio.category.public,model_modulio_portfolio_category,,1,0,0,0
+access_modulio_portfolio_category_admin,modulio.portfolio.category.admin,model_modulio_portfolio_category,website.group_website_designer,1,1,1,1

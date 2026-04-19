@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Services Section - Numbered Cards Style -->
+    <template id="s_modulio_services" name="Services Section">
+        <section class="modulio-section bg-cream">
+            <div class="container">
+                <!-- Header -->
+                <div class="row mb-5">
+                    <div class="col-lg-5">
+                        <span class="section-label" t-translation="on">Our Services</span>
+                        <h2 class="section-title">
+                            <span t-translation="on">A focused practice across</span>
+                            <span t-translation="on"> four disciplines.</span>
+                        </h2>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 d-flex align-items-center">
+                        <p class="section-subtitle mb-0" t-translation="on">
+                            We work where finance, operations, and engineering meet — designing the 
+                            systems that quietly run modern businesses. Each engagement is led by 
+                            senior consultants and shaped to your operating model.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Service Cards -->
+                <div class="row g-4">
+                    <!-- Card 1: Accounting Setup -->
+                    <div class="col-md-6">
+                        <a href="/services/accounting" class="text-decoration-none">
+                            <div class="service-card-numbered">
+                                <span class="card-number">01</span>
+                                <h3 class="card-title" t-translation="on">Accounting setup with Odoo</h3>
+                                <p class="card-description" t-translation="on">
+                                    Chart of accounts, tax structure, multi-entity, and reporting 
+                                    tailored to your business — implemented on Odoo with discipline.
+                                </p>
+                                <ul class="card-features">
+                                    <li t-translation="on">Localized compliance</li>
+                                    <li t-translation="on">Multi-currency</li>
+                                    <li t-translation="on">Audit-ready reporting</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Card 2: ERP Customization -->
+                    <div class="col-md-6">
+                        <a href="/services/erp" class="text-decoration-none">
+                            <div class="service-card-numbered">
+                                <span class="card-number">02</span>
+                                <h3 class="card-title" t-translation="on">ERP customization</h3>
+                                <p class="card-description" t-translation="on">
+                                    Modules, workflows, and approval logic shaped around how 
+                                    your teams actually work — without forking the platform.
+                                </p>
+                                <ul class="card-features">
+                                    <li t-translation="on">Workflow design</li>
+                                    <li t-translation="on">Custom modules</li>
+                                    <li t-translation="on">Role &amp; access architecture</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Card 3: Web Application -->
+                    <div class="col-md-6">
+                        <a href="/services/web-app" class="text-decoration-none">
+                            <div class="service-card-numbered">
+                                <span class="card-number">03</span>
+                                <h3 class="card-title" t-translation="on">Web application development</h3>
+                                <p class="card-description" t-translation="on">
+                                    Internal tools, customer portals, and operational software built 
+                                    to integrate cleanly with your accounting and ERP layer.
+                                </p>
+                                <ul class="card-features">
+                                    <li t-translation="on">Internal tools</li>
+                                    <li t-translation="on">Client portals</li>
+                                    <li t-translation="on">API-first architecture</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Card 4: System Integration -->
+                    <div class="col-md-6">
+                        <a href="/services/integration" class="text-decoration-none">
+                            <div class="service-card-numbered">
+                                <span class="card-number">04</span>
+                                <h3 class="card-title" t-translation="on">System integration</h3>
+                                <p class="card-description" t-translation="on">
+                                    Connect Odoo with banks, CRMs, billing, e-commerce, and 
+                                    data warehouses — one source of truth, end to end.
+                                </p>
+                                <ul class="card-features">
+                                    <li t-translation="on">Bank &amp; payment APIs</li>
+                                    <li t-translation="on">CRM &amp; e-commerce sync</li>
+                                    <li t-translation="on">Data pipelines</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

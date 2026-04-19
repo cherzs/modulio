@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Portfolio Categories -->
+        <record id="portfolio_category_manufacturing" model="modulio.portfolio.category">
+            <field name="name">Manufacturing</field>
+            <field name="slug">manufacturing</field>
+            <field name="sequence">10</field>
+        </record>
+        
+        <record id="portfolio_category_professional" model="modulio.portfolio.category">
+            <field name="name">Professional Services</field>
+            <field name="slug">professional-services</field>
+            <field name="sequence">20</field>
+        </record>
+        
+        <record id="portfolio_category_ecommerce" model="modulio.portfolio.category">
+            <field name="name">E-Commerce</field>
+            <field name="slug">ecommerce</field>
+            <field name="sequence">30</field>
+        </record>
+        
+        <record id="portfolio_category_retail" model="modulio.portfolio.category">
+            <field name="name">Retail</field>
+            <field name="slug">retail</field>
+            <field name="sequence">40</field>
+        </record>
+        
+        <record id="portfolio_category_logistics" model="modulio.portfolio.category">
+            <field name="name">Logistics</field>
+            <field name="slug">logistics</field>
+            <field name="sequence">50</field>
+        </record>
+
+        <!-- Portfolio Projects -->
+        <record id="portfolio_project_1" model="modulio.portfolio">
+            <field name="name">Closing the books in five days, not twenty.</field>
+            <field name="slug">manufacturing-erp</field>
+            <field name="description">Replaced spreadsheet-driven consolidation with a unified Odoo deployment across four legal entities.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>PT Maju Bersama, a mid-market manufacturer with four legal entities, was struggling with month-end close. Their finance team spent 20 days every month manually consolidating data from multiple spreadsheets, leading to delays in financial reporting and decision-making.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We implemented a unified Odoo ERP system across all four entities with:</p>
+                <ul>
+                    <li>Centralized chart of accounts with inter-company mapping</li>
+                    <li>Automated consolidation rules for real-time reporting</li>
+                    <li>Bank reconciliation automation for 3 major Indonesian banks</li>
+                    <li>Custom dashboards for management visibility</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <p>Within 3 months of go-live, the finance team achieved:</p>
+                <ul>
+                    <li>Month-end close reduced from 20 days to 5 days</li>
+                    <li>75% faster financial reporting</li>
+                    <li>Zero manual consolidation errors</li>
+                    <li>Real-time visibility across all entities</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_manufacturing"/>
+            <field name="client_name">PT Maju Bersama</field>
+            <field name="industry">Manufacturing</field>
+            <field name="stat_1_value">75%</field>
+            <field name="stat_1_label">faster close</field>
+            <field name="stat_2_value">4</field>
+            <field name="stat_2_label">entities unified</field>
+            <field name="stat_3_value">0</field>
+            <field name="stat_3_label">manual errors</field>
+            <field name="sequence">10</field>
+            <field name="is_featured">True</field>
+            <field name="website_published">True</field>
+        </record>
+        
+        <record id="portfolio_project_2" model="modulio.portfolio">
+            <field name="name">Removing 1,200 manual entries per month.</field>
+            <field name="slug">professional-services</field>
+            <field name="description">Designed approval flows and bank reconciliation rules that eliminated repetitive accounting work.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>A professional services firm with 50+ employees was drowning in manual data entry. Their accounting team spent most of their time on repetitive tasks instead of analysis and strategy.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We automated their entire financial workflow:</p>
+                <ul>
+                    <li>Smart bank reconciliation with auto-matching rules</li>
+                    <li>Automated expense approval workflows</li>
+                    <li>Invoice generation from timesheets</li>
+                    <li>Recurring journal entries for fixed costs</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <ul>
+                    <li>1,200 manual entries eliminated monthly</li>
+                    <li>Accounting team capacity freed for analysis</li>
+                    <li>98% reduction in data entry errors</li>
+                    <li>Real-time cash flow visibility</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_professional"/>
+            <field name="client_name">Konsultan Prima</field>
+            <field name="industry">Professional Services</field>
+            <field name="stat_1_value">1.2k</field>
+            <field name="stat_1_label">entries automated</field>
+            <field name="stat_2_value">98%</field>
+            <field name="stat_2_label">error reduction</field>
+            <field name="stat_3_value">50+</field>
+            <field name="stat_3_label">employees</field>
+            <field name="sequence">20</field>
+            <field name="is_featured">True</field>
+            <field name="website_published">True</field>
+        </record>
+        
+        <record id="portfolio_project_3" model="modulio.portfolio">
+            <field name="name">One source of truth across five platforms.</field>
+            <field name="slug">ecommerce-integration</field>
+            <field name="description">Connected storefront, payments, 3PL, CRM, and accounting through a single integration layer.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>Retail Sukses Indonesia operated across 5 different platforms: Shopify storefront, Midtrans payments, a 3PL provider, separate CRM, and manual accounting in spreadsheets. Data silos caused inventory issues and customer service delays.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We built a unified Odoo system with custom integrations:</p>
+                <ul>
+                    <li>Real-time sync with Shopify orders and inventory</li>
+                    <li>Midtrans payment reconciliation</li>
+                    <li>3PL fulfillment tracking integration</li>
+                    <li>Unified customer data and history</li>
+                    <li>Automated accounting entries</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <ul>
+                    <li>5 systems unified into one platform</li>
+                    <li>Inventory accuracy improved to 99.5%</li>
+                    <li>Customer service response time cut by 60%</li>
+                    <li>Complete order visibility from click to delivery</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_ecommerce"/>
+            <field name="client_name">Retail Sukses Indonesia</field>
+            <field name="industry">E-Commerce</field>
+            <field name="stat_1_value">5</field>
+            <field name="stat_1_label">systems unified</field>
+            <field name="stat_2_value">99.5%</field>
+            <field name="stat_2_label">inventory accuracy</field>
+            <field name="stat_3_value">60%</field>
+            <field name="stat_3_label">faster response</field>
+            <field name="sequence">30</field>
+            <field name="is_featured">True</field>
+            <field name="website_published">True</field>
+        </record>
+        
+        <record id="portfolio_project_4" model="modulio.portfolio">
+            <field name="name">HR payroll for 200 employees in 15 minutes.</field>
+            <field name="slug">hr-payroll-automation</field>
+            <field name="description">Automated complete HR and payroll process including BPJS, PPh 21, and bank transfers.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>Teknologi Nusantara's HR team spent 2 full days processing payroll for 200+ employees. Manual calculations led to errors and employee complaints.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We implemented a complete HR and payroll automation:</p>
+                <ul>
+                    <li>Employee self-service portal for leave and expenses</li>
+                    <li>Automated attendance tracking integration</li>
+                    <li>PPh 21 calculation with TER method</li>
+                    <li>BPJS Kesehatan &amp; Ketenagakerjaan auto-calculation</li>
+                    <li>Direct bank transfer file generation</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <ul>
+                    <li>Payroll processing reduced to 15 minutes</li>
+                    <li>Zero calculation errors</li>
+                    <li>100% labor law compliance</li>
+                    <li>Employee satisfaction increased</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_professional"/>
+            <field name="client_name">Teknologi Nusantara</field>
+            <field name="industry">Technology</field>
+            <field name="stat_1_value">15min</field>
+            <field name="stat_1_label">payroll time</field>
+            <field name="stat_2_value">200+</field>
+            <field name="stat_2_label">employees</field>
+            <field name="stat_3_value">0</field>
+            <field name="stat_3_label">errors</field>
+            <field name="sequence">40</field>
+            <field name="is_featured">False</field>
+            <field name="website_published">True</field>
+        </record>
+        
+        <record id="portfolio_project_5" model="modulio.portfolio">
+            <field name="name">Multi-warehouse inventory visibility in real-time.</field>
+            <field name="slug">retail-inventory</field>
+            <field name="description">Unified inventory management across 8 retail locations with real-time stock visibility.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>A retail chain with 8 locations struggled with inventory visibility. Stock-outs at one location while excess inventory sat at another was common.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We implemented unified inventory management:</p>
+                <ul>
+                    <li>Real-time inventory sync across all locations</li>
+                    <li>Automated inter-warehouse transfer suggestions</li>
+                    <li>Reorder point automation</li>
+                    <li>Barcode scanning integration</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <ul>
+                    <li>Stock-out incidents reduced by 80%</li>
+                    <li>Inventory carrying costs reduced by 25%</li>
+                    <li>Real-time visibility across 8 locations</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_retail"/>
+            <field name="client_name">Fashion Retail Co</field>
+            <field name="industry">Retail</field>
+            <field name="stat_1_value">8</field>
+            <field name="stat_1_label">locations</field>
+            <field name="stat_2_value">80%</field>
+            <field name="stat_2_label">less stockouts</field>
+            <field name="stat_3_value">25%</field>
+            <field name="stat_3_label">cost reduction</field>
+            <field name="sequence">50</field>
+            <field name="is_featured">False</field>
+            <field name="website_published">True</field>
+        </record>
+        
+        <record id="portfolio_project_6" model="modulio.portfolio">
+            <field name="name">Fleet tracking integrated with accounting.</field>
+            <field name="slug">logistics-fleet</field>
+            <field name="description">Connected GPS fleet tracking with fuel management, maintenance, and accounting systems.</field>
+            <field name="content"><![CDATA[
+                <h2>The Challenge</h2>
+                <p>A logistics company with 50+ vehicles had no visibility into fleet costs. Fuel theft was suspected, maintenance was reactive, and driver performance couldn't be measured.</p>
+                
+                <h2>Our Approach</h2>
+                <p>We built an integrated fleet management solution:</p>
+                <ul>
+                    <li>GPS tracking integration with Odoo</li>
+                    <li>Fuel consumption monitoring and alerts</li>
+                    <li>Preventive maintenance scheduling</li>
+                    <li>Driver performance scorecards</li>
+                    <li>Cost allocation to jobs/customers</li>
+                </ul>
+                
+                <h2>The Results</h2>
+                <ul>
+                    <li>Fuel costs reduced by 18%</li>
+                    <li>Maintenance downtime reduced by 40%</li>
+                    <li>Full cost visibility per vehicle and job</li>
+                </ul>
+            ]]></field>
+            <field name="category_id" ref="portfolio_category_logistics"/>
+            <field name="client_name">Express Logistics</field>
+            <field name="industry">Logistics</field>
+            <field name="stat_1_value">50+</field>
+            <field name="stat_1_label">vehicles</field>
+            <field name="stat_2_value">18%</field>
+            <field name="stat_2_label">fuel savings</field>
+            <field name="stat_3_value">40%</field>
+            <field name="stat_3_label">less downtime</field>
+            <field name="sequence">60</field>
+            <field name="is_featured">False</field>
+            <field name="website_published">True</field>
+        </record>
+    </data>
+</odoo>

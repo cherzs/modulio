@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="menu_modulio_services" model="website.menu">
+            <field name="name">Services</field>
+            <field name="url">/services</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">20</field>
+        </record>
+        <record id="menu_modulio_portfolio" model="website.menu">
+            <field name="name">Work</field>
+            <field name="url">/portfolio</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">30</field>
+        </record>
+        <record id="menu_modulio_contact" model="website.menu">
+            <field name="name">Contact</field>
+            <field name="url">/appointment/1</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">50</field>
+        </record>
+    </data>
+</odoo>

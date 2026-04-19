@@ -1,0 +1,269 @@
+// ======================
+// MODULIO SNIPPETS - MERIDIAN STYLE
+// ======================
+
+$modulio-navy: #0f1729;
+$modulio-coral: #f26c5f;
+
+// ======================
+// EDITOR PLACEHOLDER STYLES
+// ======================
+.oe_snippet_body {
+    &.s_modulio_hero,
+    &.s_modulio_services,
+    &.s_modulio_portfolio,
+    &.s_modulio_pain_points,
+    &.s_modulio_cta_form {
+        min-height: 80px;
+        border: 2px dashed rgba($modulio-navy, 0.3);
+        background: rgba($modulio-navy, 0.03);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: $modulio-navy;
+        font-weight: 600;
+    }
+}
+
+// ======================
+// REVEAL ANIMATION
+// ======================
+.modulio-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    
+    &.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// ======================
+// HERO SECTION ENHANCEMENTS
+// ======================
+.hero-section {
+    @media (max-width: 991px) {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        
+        .hero-stats {
+            margin-top: 48px;
+        }
+    }
+}
+
+// ======================
+// SERVICE CARDS (NUMBERED)
+// ======================
+.service-card-numbered {
+    text-decoration: none;
+    display: block;
+    
+    &:hover {
+        text-decoration: none;
+    }
+    
+    .card-title,
+    .card-description,
+    .card-features li {
+        transition: color 0.3s ease;
+    }
+}
+
+// Dark mode support
+body.dark-mode {
+    .service-card-numbered {
+        .card-title {
+            color: white;
+        }
+    }
+    
+    .why-item {
+        .why-title {
+            color: white;
+        }
+        
+        .why-icon svg {
+            color: white;
+        }
+    }
+    
+    .work-card {
+        .work-title,
+        .work-stat .stat-value {
+            color: white;
+        }
+    }
+}
+
+// ======================
+// WHY GRID RESPONSIVE
+// ======================
+.why-grid {
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.why-item {
+    @media (max-width: 767px) {
+        padding: 24px;
+    }
+}
+
+// ======================
+// WORK CARDS RESPONSIVE
+// ======================
+.work-card {
+    .work-image {
+        @media (max-width: 767px) {
+            height: 160px;
+        }
+    }
+    
+    .work-content {
+        @media (max-width: 767px) {
+            padding: 20px;
+        }
+    }
+}
+
+// ======================
+// CTA SECTION RESPONSIVE
+// ======================
+.cta-section {
+    @media (max-width: 767px) {
+        .cta-contact {
+            margin-top: 24px;
+        }
+    }
+}
+
+// ======================
+// TESTIMONIAL QUOTE
+// ======================
+.testimonial-quote {
+    border-radius: 8px;
+    
+    p {
+        margin-bottom: 0;
+    }
+}
+
+body.dark-mode .testimonial-quote {
+    background: rgba(242, 108, 95, 0.1) !important;
+}
+
+// ======================
+// THANK YOU PAGE
+// ======================
+.thank-you-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0 80px;
+    background: var(--modulio-bg-primary);
+}
+
+.thank-you-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.thank-you-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(242, 108, 95, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 32px;
+    
+    svg {
+        color: var(--modulio-coral);
+    }
+}
+
+.thank-you-title {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--modulio-navy);
+    margin-bottom: 16px;
+}
+
+body.dark-mode .thank-you-title {
+    color: white;
+}
+
+.thank-you-message {
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--modulio-text-light);
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+
+.thank-you-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+// ======================
+// ANIMATIONS
+// ======================
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+// ======================
+// UTILITY CLASSES
+// ======================
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    }
+}
+
+.hover-white:hover {
+    color: white !important;
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+// ======================
+// SMOOTH SCROLL TARGETS
+// ======================
+[id] {
+    scroll-margin-top: 100px;
+}
+
+// ======================
+// SECTION SPACING
+// ======================
+.modulio-section {
+    &:first-of-type {
+        padding-top: 0;
+    }
+}

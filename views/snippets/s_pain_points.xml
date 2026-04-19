@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Why Choose Us Section - Grid Style -->
+    <template id="s_modulio_pain_points" name="Why Choose Us">
+        <section class="modulio-section bg-cream">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Content -->
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <span class="section-label" t-translation="on">Why Choose Modulio</span>
+                        <h2 class="section-title">
+                            <span t-translation="on">A consulting partner — </span>
+                            <span class="text-coral" style="font-style: italic; font-weight: 400;" t-translation="on">not a vendor.</span>
+                        </h2>
+                        <p class="section-subtitle mb-4" t-translation="on">
+                            We are accountable for outcomes, not deliverables. 
+                            Our engagements are sized to the problem and led 
+                            by people who have built finance systems for a living.
+                        </p>
+                        
+                        <!-- Testimonial Quote -->
+                        <div class="testimonial-quote mt-4 p-4" style="border-left: 3px solid var(--modulio-coral); background: rgba(242, 108, 95, 0.05);">
+                            <p style="font-style: italic; color: var(--modulio-text); margin-bottom: 12px;" t-translation="on">
+                                "They didn't sell us software. They redesigned the 
+                                way our finance team operates — and the system followed."
+                            </p>
+                            <div style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--modulio-text-light);">
+                                <span t-translation="on">CFO</span> · <span t-translation="on">MID-MARKET MANUFACTURER</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Grid -->
+                    <div class="col-lg-6 offset-lg-1">
+                        <div class="why-grid">
+                            <div class="why-item">
+                                <div class="why-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="why-title" t-translation="on">System thinking</h4>
+                                <p class="why-description" t-translation="on">
+                                    We treat accounting, operations, and software as one system — not 
+                                    separate projects. Decisions are made for the whole, not the part.
+                                </p>
+                            </div>
+                            
+                            <div class="why-item">
+                                <div class="why-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="why-title" t-translation="on">Reliability first</h4>
+                                <p class="why-description" t-translation="on">
+                                    Predictable delivery, documented architecture, and clean handover. 
+                                    The system runs without us long after go-live.
+                                </p>
+                            </div>
+                            
+                            <div class="why-item">
+                                <div class="why-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="why-title" t-translation="on">Efficiency by design</h4>
+                                <p class="why-description" t-translation="on">
+                                    Every workflow we ship removes manual work. We measure success 
+                                    in hours saved and errors prevented.
+                                </p>
+                            </div>
+                            
+                            <div class="why-item">
+                                <div class="why-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                </div>
+                                <h4 class="why-title" t-translation="on">Senior consultants</h4>
+                                <p class="why-description" t-translation="on">
+                                    You work directly with the people designing your system. No layered 
+                                    teams, no diluted accountability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

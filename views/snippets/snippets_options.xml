@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Register snippets to make them editable in Website Builder -->
+    
+    <!-- Hero Section Options -->
+    <template id="s_modulio_hero_v2_options" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-selector=".hero-section" data-target=".hero-section">
+                <we-colorpicker string="Background Color" data-select-style="true" data-css-property="background-color"/>
+            </div>
+        </xpath>
+    </template>
+    
+    <!-- Make hero section a droppable snippet -->
+    <template id="modulio_snippets" inherit_id="website.snippets">
+        <xpath expr="//snippets[@id='snippet_structure']" position="inside">
+            <t t-snippet="modulio_website.s_modulio_hero_v2" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_hero.svg"/>
+            <t t-snippet="modulio_website.s_modulio_services" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_services.svg"/>
+            <t t-snippet="modulio_website.s_modulio_testimonials" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_testimonials.svg"/>
+            <t t-snippet="modulio_website.s_modulio_portfolio" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_portfolio.svg"/>
+            <t t-snippet="modulio_website.s_modulio_pain_points" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_why.svg"/>
+            <t t-snippet="modulio_website.s_modulio_process" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_process.svg"/>
+            <t t-snippet="modulio_website.s_modulio_cta_form" 
+               t-thumbnail="/modulio_website/static/src/img/snippets/s_cta.svg"/>
+        </xpath>
+    </template>
+</odoo>

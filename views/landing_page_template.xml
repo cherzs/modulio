@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="landing_page" name="Modulio Landing Page">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'modulio-landing'"/>
+            <div id="wrap">
+                <!-- 1. Navbar (handled by layout.xml) -->
+                
+                <!-- 2. Hero Section -->
+                <t t-call="modulio_website.s_modulio_hero_v2"/>
+                
+                <!-- 3. Our Services -->
+                <t t-call="modulio_website.s_modulio_services"/>
+                
+                <!-- 4. Client Reviews -->
+                <t t-call="modulio_website.s_modulio_testimonials"/>
+                
+                <!-- 5. Portfolio -->
+                <t t-call="modulio_website.s_modulio_portfolio"/>
+                
+                <!-- 6. Why Choose Modulio -->
+                <t t-call="modulio_website.s_modulio_pain_points"/>
+                
+                <!-- 7. How We Work -->
+                <t t-call="modulio_website.s_modulio_process"/>
+                
+                <!-- 8. CTA + Contact -->
+                <t t-call="modulio_website.s_modulio_cta_form"/>
+                
+                <!-- 9. Footer (handled by layout.xml) -->
+            </div>
+        </t>
+    </template>
+</odoo>
