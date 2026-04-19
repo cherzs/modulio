@@ -714,7 +714,7 @@ body.dark-mode .section-title {
 
     .navbar-brand {
         font-family: var(--font-family);
-        font-weight: 700;
+    font-weight: 700;
         font-size: 20px;
         color: white;
         text-decoration: none;
@@ -810,7 +810,7 @@ body.dark-mode .section-title {
     .lang-selector {
         font-family: var(--font-family) !important;
         font-weight: 600;
-        font-size: 13px;
+    font-size: 13px;
         color: rgba(255, 255, 255, 0.9) !important;
         padding: 6px 12px !important;
         border: 1px solid rgba(255, 255, 255, 0.25);
@@ -943,8 +943,8 @@ body.dark-mode {
     gap: 8px;
     padding: 14px 28px;
     background: var(--modulio-coral);
-    color: white;
-    border: none;
+        color: white;
+        border: none;
     border-radius: 8px;
     font-family: var(--font-family);
     font-weight: 600;
@@ -953,12 +953,12 @@ body.dark-mode {
     transition: all 0.25s ease;
     cursor: pointer;
 
-    &:hover {
+        &:hover {
         background: var(--modulio-coral-hover);
-        transform: translateY(-2px);
+            transform: translateY(-2px);
         box-shadow: 0 8px 20px rgba(242, 108, 95, 0.3);
-        color: white;
-    }
+            color: white;
+        }
     
     svg {
         width: 16px;
@@ -971,8 +971,8 @@ body.dark-mode {
     align-items: center;
     gap: 8px;
     padding: 14px 28px;
-    background: transparent;
-    color: white;
+        background: transparent;
+        color: white;
     border: none;
     font-family: var(--font-family);
     font-weight: 500;
@@ -980,7 +980,7 @@ body.dark-mode {
     text-decoration: none;
     transition: all 0.2s ease;
 
-    &:hover {
+        &:hover {
         color: var(--modulio-coral);
     }
     
@@ -1068,6 +1068,11 @@ body:not(.dark-mode) .hero-section .hero-overlay {
     background: linear-gradient(135deg, rgba(27, 61, 90, 0.5) 0%, rgba(27, 61, 90, 0.4) 50%, rgba(27, 61, 90, 0.45) 100%);
 }
 
+// Solid navy heroes (no background image) — overlay not needed; keeps text readable in light mode
+.hero-section.bg-navy .hero-overlay {
+    display: none;
+}
+
 // Hero section inner elements
 .hero-section {
     .hero-tags {
@@ -1098,7 +1103,7 @@ body:not(.dark-mode) .hero-section .hero-overlay {
         font-family: var(--font-family);
         font-size: clamp(40px, 6vw, 64px);
         font-weight: 600;
-        color: white;
+            color: white;
         line-height: 1.1;
         margin-bottom: 24px;
         letter-spacing: -0.02em;
@@ -1212,8 +1217,8 @@ body.dark-mode .page-hero {
         background: var(--modulio-border);
         transition: background 0.3s ease;
     }
-    
-    &:hover {
+
+        &:hover {
         box-shadow: 0 20px 40px var(--modulio-shadow);
         transform: translateY(-4px);
         
@@ -1672,7 +1677,7 @@ body.dark-mode .process-card {
         background: rgba(255, 255, 255, 0.1);
         border-radius: 12px;
         padding: 32px;
-        backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     }
     
     .contact-item {
@@ -1680,7 +1685,7 @@ body.dark-mode .process-card {
         justify-content: space-between;
         padding: 16px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        
+
         &:last-of-type {
             border-bottom: none;
         }
@@ -1762,9 +1767,9 @@ body.dark-mode .process-card {
             text-transform: uppercase;
             letter-spacing: 0.05em;
             color: rgba(255, 255, 255, 0.6);
-            margin-bottom: 8px;
-        }
-        
+    margin-bottom: 8px;
+}
+
         .form-control {
             background: rgba(255, 255, 255, 0.1) !important;
             border: 1px solid rgba(255, 255, 255, 0.15) !important;
@@ -2050,9 +2055,9 @@ body.dark-mode .theme-toggle {
         
         .hero-title {
             font-size: 32px;
-            line-height: 1.2;
-        }
-        
+        line-height: 1.2;
+    }
+
         .hero-tags {
             justify-content: center;
             flex-wrap: wrap;
